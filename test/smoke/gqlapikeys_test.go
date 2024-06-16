@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/test/smoke/harness"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/test/smoke/harness"
 )
 
 // TestGQLAPIKeys tests most operations on API keys API via GraphQL endpoint.

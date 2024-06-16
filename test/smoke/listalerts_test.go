@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 func TestListAlerts(t *testing.T) {

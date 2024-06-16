@@ -5,11 +5,11 @@ import (
 	"database/sql"
 	"net/url"
 
-	"github.com/target/goalert/calsub"
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/schedule"
+	"github.com/breathbath/goalert/calsub"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/schedule"
 )
 
 type UserCalendarSubscription App

@@ -10,13 +10,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/breathbath/goalert/lock"
+	"github.com/breathbath/goalert/retry"
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/util/sqlutil"
 	"github.com/jackc/pgx/v5"
 	"github.com/pkg/errors"
 	"github.com/rubenv/sql-migrate/sqlparse"
-	"github.com/target/goalert/lock"
-	"github.com/target/goalert/retry"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/util/sqlutil"
 )
 
 //go:embed migrations

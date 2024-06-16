@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/breathbath/goalert/pkg/sysapi"
 	"github.com/slack-go/slack"
-	"github.com/target/goalert/pkg/sysapi"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/credentials/insecure"

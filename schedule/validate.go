@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/target/goalert/user"
-	"github.com/target/goalert/validation"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/user"
+	"github.com/breathbath/goalert/validation"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 func validateTimeRange(prefix string, start, end time.Time) error {

@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/breathbath/goalert/validation"
 	"github.com/nyaruka/phonenumbers"
-	"github.com/target/goalert/validation"
 )
 
 var phoneRx = regexp.MustCompile(`^\+\d{1,15}$`)

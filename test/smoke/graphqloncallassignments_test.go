@@ -8,10 +8,10 @@ import (
 	"testing"
 	"text/template"
 
+	"github.com/breathbath/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/user"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/test/smoke/harness"
-	"github.com/target/goalert/user"
 )
 
 var onCallAsnQueryTmpl = template.Must(template.New("query").Parse(`

@@ -3,7 +3,7 @@ package smoke
 import (
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestTwilioVoiceEmptyMessage checks that an appropriate voice call is made when alert has empty summary.

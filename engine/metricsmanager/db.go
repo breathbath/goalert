@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/target/goalert/engine/processinglock"
-	"github.com/target/goalert/util"
+	"github.com/breathbath/goalert/engine/processinglock"
+	"github.com/breathbath/goalert/util"
 )
 
 const engineVersion = 3

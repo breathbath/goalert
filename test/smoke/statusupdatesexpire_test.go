@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestStatusUpdatesExpiration checks expiration functionality of status updates:

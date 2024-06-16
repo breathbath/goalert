@@ -3,8 +3,8 @@ package errutil
 import (
 	"strings"
 
-	"github.com/target/goalert/util/sqlutil"
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/util/sqlutil"
+	"github.com/breathbath/goalert/validation"
 )
 
 // MapDBError will map known DB errors (like unique names) to a valiation error

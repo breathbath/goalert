@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/breathbath/goalert/util/log"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/util/log"
 )
 
 // Manager is used as an intermediary between Senders and Receivers.

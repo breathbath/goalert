@@ -6,15 +6,15 @@ import (
 	"encoding/json"
 	"errors"
 
+	"github.com/breathbath/goalert/auth/authtoken"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/gadb"
+	"github.com/breathbath/goalert/keyring"
+	"github.com/breathbath/goalert/oncall"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/validation"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/google/uuid"
-	"github.com/target/goalert/auth/authtoken"
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/gadb"
-	"github.com/target/goalert/keyring"
-	"github.com/target/goalert/oncall"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/validation"
-	"github.com/target/goalert/validation/validate"
 )
 
 // Store allows the lookup and management of calendar subscriptions

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
+	"github.com/breathbath/goalert/test/smoke/harness"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/test/smoke/harness"
 )
 
 // TestStatusUpdatesNoLog tests status updates continue to work when no logs are present.

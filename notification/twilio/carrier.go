@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/user/contactmethod"
-	"github.com/target/goalert/util/log"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/user/contactmethod"
+	"github.com/breathbath/goalert/util/log"
 )
 
 // CarrierInfo holds information about the carrier network for a particular number.

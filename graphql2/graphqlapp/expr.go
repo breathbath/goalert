@@ -7,11 +7,11 @@ import (
 	"strings"
 
 	"github.com/99designs/gqlgen/graphql"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/validation"
 	"github.com/expr-lang/expr/ast"
 	"github.com/expr-lang/expr/parser"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/validation"
 	"github.com/vektah/gqlparser/v2/gqlerror"
 )
 

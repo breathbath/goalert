@@ -3,7 +3,7 @@ package slack
 import (
 	"context"
 
-	"github.com/target/goalert/notification"
+	"github.com/breathbath/goalert/notification"
 )
 
 // DMSender wraps a ChannelSender with DM-specific functionality.

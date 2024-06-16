@@ -7,10 +7,10 @@ import (
 	_ "net/url"
 	"strings"
 
-	"github.com/target/goalert/alert"
-	"github.com/target/goalert/auth/authtoken"
-	"github.com/target/goalert/integrationkey"
-	"github.com/target/goalert/smtpsrv"
+	"github.com/breathbath/goalert/alert"
+	"github.com/breathbath/goalert/auth/authtoken"
+	"github.com/breathbath/goalert/integrationkey"
+	"github.com/breathbath/goalert/smtpsrv"
 )
 
 func (app *App) initSMTPServer(ctx context.Context) error {

@@ -16,30 +16,30 @@ import (
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
 	ast1 "github.com/expr-lang/expr/ast"
-	"github.com/target/goalert/alert"
-	"github.com/target/goalert/alert/alertlog"
-	"github.com/target/goalert/alert/alertmetrics"
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/calsub"
-	"github.com/target/goalert/escalation"
-	"github.com/target/goalert/heartbeat"
-	"github.com/target/goalert/integrationkey"
-	"github.com/target/goalert/label"
-	"github.com/target/goalert/limit"
-	"github.com/target/goalert/notice"
-	"github.com/target/goalert/notification"
-	"github.com/target/goalert/notification/slack"
-	"github.com/target/goalert/notification/twilio"
-	"github.com/target/goalert/oncall"
-	"github.com/target/goalert/override"
-	"github.com/target/goalert/schedule"
-	"github.com/target/goalert/schedule/rotation"
-	"github.com/target/goalert/schedule/rule"
-	"github.com/target/goalert/service"
-	"github.com/target/goalert/user"
-	"github.com/target/goalert/user/contactmethod"
-	"github.com/target/goalert/user/notificationrule"
-	"github.com/target/goalert/util/timeutil"
+	"github.com/breathbath/goalert/alert"
+	"github.com/breathbath/goalert/alert/alertlog"
+	"github.com/breathbath/goalert/alert/alertmetrics"
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/calsub"
+	"github.com/breathbath/goalert/escalation"
+	"github.com/breathbath/goalert/heartbeat"
+	"github.com/breathbath/goalert/integrationkey"
+	"github.com/breathbath/goalert/label"
+	"github.com/breathbath/goalert/limit"
+	"github.com/breathbath/goalert/notice"
+	"github.com/breathbath/goalert/notification"
+	"github.com/breathbath/goalert/notification/slack"
+	"github.com/breathbath/goalert/notification/twilio"
+	"github.com/breathbath/goalert/oncall"
+	"github.com/breathbath/goalert/override"
+	"github.com/breathbath/goalert/schedule"
+	"github.com/breathbath/goalert/schedule/rotation"
+	"github.com/breathbath/goalert/schedule/rule"
+	"github.com/breathbath/goalert/service"
+	"github.com/breathbath/goalert/user"
+	"github.com/breathbath/goalert/user/contactmethod"
+	"github.com/breathbath/goalert/user/notificationrule"
+	"github.com/breathbath/goalert/util/timeutil"
 	gqlparser "github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 )
@@ -14924,7 +14924,7 @@ func (ec *executionContext) _IntegrationKey_config(ctx context.Context, field gr
 		if data, ok := tmp.(*KeyConfig); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/target/goalert/graphql2.KeyConfig`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/breathbath/goalert/graphql2.KeyConfig`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -15000,7 +15000,7 @@ func (ec *executionContext) _IntegrationKey_tokenInfo(ctx context.Context, field
 		if data, ok := tmp.(*TokenInfo); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/target/goalert/graphql2.TokenInfo`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/breathbath/goalert/graphql2.TokenInfo`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -24197,7 +24197,7 @@ func (ec *executionContext) _Query_expr(ctx context.Context, field graphql.Colle
 		if data, ok := tmp.(*Expr); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/target/goalert/graphql2.Expr`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/breathbath/goalert/graphql2.Expr`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)

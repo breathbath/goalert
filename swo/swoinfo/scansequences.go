@@ -4,8 +4,8 @@ import (
 	"context"
 	"sort"
 
+	"github.com/breathbath/goalert/swo/swodb"
 	"github.com/jackc/pgx/v5"
-	"github.com/target/goalert/swo/swodb"
 )
 
 // ScanSequences will return the names of all sequences in the database, ordered

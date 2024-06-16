@@ -3,7 +3,7 @@ package alert
 import (
 	"database/sql/driver"
 	"fmt"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/validation/validate"
 	"strconv"
 	"strings"
 

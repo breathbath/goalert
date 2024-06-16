@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/override"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/test/smoke/harness"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/override"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/test/smoke/harness"
 )
 
 func TestOverrideConflict(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestSlackUserGroups tests that the configured notification rule sends the intended notification to the slack user group.

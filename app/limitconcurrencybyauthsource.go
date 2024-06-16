@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/target/goalert/ctxlock"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util/errutil"
+	"github.com/breathbath/goalert/ctxlock"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util/errutil"
 )
 
 // LimitConcurrencyByAuthSource limits the number of concurrent requests

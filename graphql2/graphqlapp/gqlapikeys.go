@@ -3,10 +3,10 @@ package graphqlapp
 import (
 	"context"
 
-	"github.com/target/goalert/apikey"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/user"
+	"github.com/breathbath/goalert/apikey"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/user"
 )
 
 type GQLAPIKey App

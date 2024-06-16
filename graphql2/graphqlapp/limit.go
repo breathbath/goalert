@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/limit"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/limit"
 )
 
 func (q *Query) SystemLimits(ctx context.Context) ([]graphql2.SystemLimit, error) {

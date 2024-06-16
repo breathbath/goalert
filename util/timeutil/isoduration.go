@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/breathbath/goalert/validation"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/validation"
 )
 
 // ISODuration represents an ISO duration string.

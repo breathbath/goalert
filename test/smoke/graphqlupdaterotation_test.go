@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/breathbath/goalert/test/smoke/harness"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/test/smoke/harness"
 )
 
 // TestGraphQLUpdateRotation tests that all steps like creating and updating rotations are carried out without any errors.

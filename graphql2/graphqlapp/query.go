@@ -3,11 +3,11 @@ package graphqlapp
 import (
 	context "context"
 
-	"github.com/target/goalert/expflag"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/notification"
-	"github.com/target/goalert/search"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/expflag"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/notification"
+	"github.com/breathbath/goalert/search"
+	"github.com/breathbath/goalert/validation/validate"
 
 	"github.com/pkg/errors"
 )

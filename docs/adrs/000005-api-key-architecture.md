@@ -68,7 +68,7 @@ Chosen option: "Restricted API keys with predefined queries and operations", acc
 
 ## Links
 
-- [Feature Request](https://github.com/target/goalert/issues/3007)
+- [Feature Request](https://github.com/breathbath/goalert/issues/3007)
 
 
 ## Implementation Details and Reasoning

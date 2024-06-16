@@ -6,8 +6,8 @@ import (
 	"path"
 	"strconv"
 
+	"github.com/breathbath/goalert/notification/twilio"
 	"github.com/nyaruka/phonenumbers"
-	"github.com/target/goalert/notification/twilio"
 )
 
 func (s *Server) serveLookup(w http.ResponseWriter, req *http.Request) {

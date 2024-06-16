@@ -3,8 +3,8 @@ package smoke
 import (
 	"testing"
 
+	"github.com/breathbath/goalert/test/smoke/harness"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/test/smoke/harness"
 )
 
 // TestTwilioSMSFromOverride checks that the FromNumber of an SMS can be overridden per-carrier.

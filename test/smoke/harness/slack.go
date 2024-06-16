@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/breathbath/goalert/devtools/mockslack"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/devtools/mockslack"
 )
 
 const (

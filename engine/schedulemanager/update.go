@@ -8,17 +8,17 @@ import (
 	"sort"
 	"time"
 
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/override"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/schedule"
+	"github.com/breathbath/goalert/schedule/rule"
+	"github.com/breathbath/goalert/util"
+	"github.com/breathbath/goalert/util/jsonutil"
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/util/sqlutil"
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/override"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/schedule"
-	"github.com/target/goalert/schedule/rule"
-	"github.com/target/goalert/util"
-	"github.com/target/goalert/util/jsonutil"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/util/sqlutil"
 )
 
 // UpdateAll will update all schedule rules.

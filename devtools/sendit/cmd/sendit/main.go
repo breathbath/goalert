@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/target/goalert/devtools/sendit"
+	"github.com/breathbath/goalert/devtools/sendit"
 )
 
 func main() {

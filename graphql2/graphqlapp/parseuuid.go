@@ -1,8 +1,8 @@
 package graphqlapp
 
 import (
+	"github.com/breathbath/goalert/validation"
 	"github.com/google/uuid"
-	"github.com/target/goalert/validation"
 )
 
 func parseUUID(fname, u string) (uuid.UUID, error) {

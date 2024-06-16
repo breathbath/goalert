@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/target/goalert/notification"
+	"github.com/breathbath/goalert/notification"
 )
 
 var _ notification.FriendlyValuer = Sender{}

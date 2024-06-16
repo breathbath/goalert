@@ -12,10 +12,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/breathbath/goalert/devtools/sendit"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/devtools/sendit"
 )
 
 func logCmd(t *testing.T, name string, arg ...string) *exec.Cmd {

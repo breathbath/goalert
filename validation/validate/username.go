@@ -1,6 +1,6 @@
 package validate
 
-import "github.com/target/goalert/validation"
+import "github.com/breathbath/goalert/validation"
 
 // Username will validate a username to ensure it is between 3 and 24 characters,
 // and only contains lower-case ASCII letters, numbers, and '-', '_', and '.'.

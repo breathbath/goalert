@@ -3,11 +3,11 @@ package npcyclemanager
 import (
 	"context"
 
+	"github.com/breathbath/goalert/alert/alertlog"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/util/sqlutil"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/alert/alertlog"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/util/sqlutil"
 )
 
 // UpdateAll will update and cleanup all notification cycles.

@@ -3,7 +3,7 @@ package smoke
 import (
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestEmailNotification tests that email notifications are delivered.

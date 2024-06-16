@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestGraphQLDedup tests that creating and closing an alert with a dedup key works.

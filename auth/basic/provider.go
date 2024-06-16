@@ -3,7 +3,7 @@ package basic
 import (
 	"context"
 
-	"github.com/target/goalert/ctxlock"
+	"github.com/breathbath/goalert/ctxlock"
 )
 
 // Provider implements the auth.IdentityProvider interface.

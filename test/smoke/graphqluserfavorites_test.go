@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestGraphQLUserFavorites tests that services can be set and unset as user favorites

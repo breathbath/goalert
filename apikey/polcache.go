@@ -6,9 +6,9 @@ import (
 	"errors"
 	"sync"
 
+	"github.com/breathbath/goalert/gadb"
 	"github.com/golang/groupcache/lru"
 	"github.com/google/uuid"
-	"github.com/target/goalert/gadb"
 )
 
 // polCache handles caching of policyInfo objects, as well as negative caching

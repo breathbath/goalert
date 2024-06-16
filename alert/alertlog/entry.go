@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/breathbath/goalert/util/log"
 	"github.com/google/uuid"
-	"github.com/target/goalert/util/log"
 )
 
 type Entry struct {

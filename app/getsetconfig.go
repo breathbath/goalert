@@ -5,12 +5,12 @@ import (
 	"database/sql"
 	"os"
 
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/util/sqlutil"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/util/sqlutil"
 )
 
 func getSetConfig(ctx context.Context, setCfg bool, data []byte) error {

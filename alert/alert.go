@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 // maximum lengths

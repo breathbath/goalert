@@ -3,10 +3,10 @@ package heartbeat
 import (
 	"time"
 
+	"github.com/breathbath/goalert/alert"
+	"github.com/breathbath/goalert/util/sqlutil"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/jackc/pgtype"
-	"github.com/target/goalert/alert"
-	"github.com/target/goalert/util/sqlutil"
-	"github.com/target/goalert/validation/validate"
 )
 
 // A Monitor will generate an alert if it does not receive a heartbeat within the configured TimeoutMinutes.

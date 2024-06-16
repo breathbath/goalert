@@ -4,8 +4,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/target/goalert/pkg/sysapi"
-	"github.com/target/goalert/sysapiserver"
+	"github.com/breathbath/goalert/pkg/sysapi"
+	"github.com/breathbath/goalert/sysapiserver"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/health"

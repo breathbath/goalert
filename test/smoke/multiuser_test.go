@@ -3,7 +3,7 @@ package smoke
 import (
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestMultiUser checks that if multiple users are assigned to a policy step,

@@ -3,7 +3,7 @@ package rotation
 import (
 	"time"
 
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 type State struct {

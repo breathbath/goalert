@@ -7,13 +7,13 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/notification"
-	"github.com/target/goalert/notification/webhook"
-	"github.com/target/goalert/user/contactmethod"
-	"github.com/target/goalert/validation"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/notification"
+	"github.com/breathbath/goalert/notification/webhook"
+	"github.com/breathbath/goalert/user/contactmethod"
+	"github.com/breathbath/goalert/validation"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 type ContactMethod App

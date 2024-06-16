@@ -5,7 +5,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/target/goalert/permission"
+	"github.com/breathbath/goalert/permission"
 )
 
 // SearchOptions allow filtering and paginating the list of timezones.

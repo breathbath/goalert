@@ -6,8 +6,8 @@ import (
 	"time"
 
 	graphql "github.com/99designs/gqlgen/graphql"
+	"github.com/breathbath/goalert/validation"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/validation"
 )
 
 func MarshalISOTimestamp(t time.Time) graphql.Marshaler {

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/util/log"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/util/log"
 )
 
 func withTimeout(t *testing.T, name string, fn func() error) error {

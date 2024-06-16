@@ -4,11 +4,11 @@ import (
 	"crypto/tls"
 	"time"
 
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/expflag"
-	"github.com/target/goalert/keyring"
-	"github.com/target/goalert/swo"
-	"github.com/target/goalert/util/log"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/expflag"
+	"github.com/breathbath/goalert/keyring"
+	"github.com/breathbath/goalert/swo"
+	"github.com/breathbath/goalert/util/log"
 )
 
 type Config struct {

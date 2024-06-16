@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/breathbath/goalert/swo/swomsg"
 	"github.com/google/uuid"
-	"github.com/target/goalert/swo/swomsg"
 )
 
 type TaskMgr struct {

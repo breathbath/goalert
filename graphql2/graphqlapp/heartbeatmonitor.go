@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/heartbeat"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/heartbeat"
 )
 
 type HeartbeatMonitor App

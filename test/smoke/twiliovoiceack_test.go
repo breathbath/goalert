@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestTwilioVoiceAck checks that a voice call ack is processed.

@@ -9,11 +9,11 @@ import (
 	"strings"
 
 	"github.com/99designs/gqlgen/graphql"
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/validation"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/validation"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/vektah/gqlparser/v2/ast"
 	"github.com/vektah/gqlparser/v2/gqlerror"
 )

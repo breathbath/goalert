@@ -4,11 +4,11 @@ import (
 	context "context"
 	"database/sql"
 
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/schedule/rule"
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/schedule/rule"
+	"github.com/breathbath/goalert/validation"
 
 	"github.com/pkg/errors"
 )

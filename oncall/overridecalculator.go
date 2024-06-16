@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/target/goalert/override"
+	"github.com/breathbath/goalert/override"
 )
 
 // OverrideCalculator allows mapping a set of active users against the current set of active overrides.

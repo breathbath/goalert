@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestGraphQLCreateSchedule tests that all steps for creating a schedule (without default rotation) are carried out without any errors.

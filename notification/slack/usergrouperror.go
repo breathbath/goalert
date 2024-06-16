@@ -6,9 +6,9 @@ import (
 	"strings"
 	"text/template"
 
+	"github.com/breathbath/goalert/notification"
 	"github.com/google/uuid"
 	"github.com/slack-go/slack/slackutilsx"
-	"github.com/target/goalert/notification"
 )
 
 // userGroupError has information about an error that occurred while updating a user-group.

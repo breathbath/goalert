@@ -5,8 +5,8 @@ package graphql2
 import (
 	"fmt"
 
-	"github.com/target/goalert/limit"
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/limit"
+	"github.com/breathbath/goalert/validation"
 )
 
 // MapLimitValues will map a Limit struct into a flat list of SystemLimit structs.

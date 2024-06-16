@@ -28,10 +28,10 @@ endif
 
 export ZONEINFO:=$(shell go env GOROOT)/lib/time/zoneinfo.zip
 
-LD_FLAGS+=-X github.com/target/goalert/version.gitCommit=$(GIT_COMMIT)
-LD_FLAGS+=-X github.com/target/goalert/version.gitVersion=$(GIT_VERSION)
-LD_FLAGS+=-X github.com/target/goalert/version.gitTreeState=$(GIT_TREE)
-LD_FLAGS+=-X github.com/target/goalert/version.buildDate=$(BUILD_DATE)
+LD_FLAGS+=-X github.com/breathbath/goalert/version.gitCommit=$(GIT_COMMIT)
+LD_FLAGS+=-X github.com/breathbath/goalert/version.gitVersion=$(GIT_VERSION)
+LD_FLAGS+=-X github.com/breathbath/goalert/version.gitTreeState=$(GIT_TREE)
+LD_FLAGS+=-X github.com/breathbath/goalert/version.buildDate=$(BUILD_DATE)
 
 IMAGE_REPO=docker.io/goalert
 IMAGE_TAG=$(GIT_VERSION)

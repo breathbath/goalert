@@ -3,7 +3,7 @@ package message
 import (
 	"time"
 
-	"github.com/target/goalert/notification"
+	"github.com/breathbath/goalert/notification"
 )
 
 // Throttle represents the throttled messages for a queue.

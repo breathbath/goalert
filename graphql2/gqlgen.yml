@@ -9,114 +9,114 @@ model:
   filename: models_gen.go
 models:
   AuthSubject:
-    model: github.com/target/goalert/user.AuthSubject
+    model: github.com/breathbath/goalert/user.AuthSubject
   AuthSubjectInput:
-    model: github.com/target/goalert/user.AuthSubject
+    model: github.com/breathbath/goalert/user.AuthSubject
   User:
-    model: github.com/target/goalert/user.User
+    model: github.com/breathbath/goalert/user.User
     fields:
       statusUpdateContactMethodID:
         fieldName: AlertStatusCMID
   UserContactMethod:
-    model: github.com/target/goalert/user/contactmethod.ContactMethod
+    model: github.com/breathbath/goalert/user/contactmethod.ContactMethod
     fields:
       value:
         resolver: true
   UserNotificationRule:
-    model: github.com/target/goalert/user/notificationrule.NotificationRule
+    model: github.com/breathbath/goalert/user/notificationrule.NotificationRule
   Target:
-    model: github.com/target/goalert/assignment.RawTarget
+    model: github.com/breathbath/goalert/assignment.RawTarget
     fields:
       name:
         resolver: true
   TargetInput:
-    model: github.com/target/goalert/assignment.RawTarget
+    model: github.com/breathbath/goalert/assignment.RawTarget
   TargetType:
-    model: github.com/target/goalert/assignment.TargetType
+    model: github.com/breathbath/goalert/assignment.TargetType
   Alert:
-    model: github.com/target/goalert/alert.Alert
+    model: github.com/breathbath/goalert/alert.Alert
   AlertLogEntry:
-    model: github.com/target/goalert/alert/alertlog.Entry
+    model: github.com/breathbath/goalert/alert/alertlog.Entry
   AlertState:
-    model: github.com/target/goalert/alert.State
+    model: github.com/breathbath/goalert/alert.State
   Service:
-    model: github.com/target/goalert/service.Service
+    model: github.com/breathbath/goalert/service.Service
   ISOTimestamp:
-    model: github.com/target/goalert/graphql2.ISOTimestamp
+    model: github.com/breathbath/goalert/graphql2.ISOTimestamp
   ISODuration:
-    model: github.com/target/goalert/util/timeutil.ISODuration
+    model: github.com/breathbath/goalert/util/timeutil.ISODuration
   ISORInterval:
-    model: github.com/target/goalert/util/timeutil.ISORInterval
+    model: github.com/breathbath/goalert/util/timeutil.ISORInterval
   EscalationPolicy:
-    model: github.com/target/goalert/escalation.Policy
+    model: github.com/breathbath/goalert/escalation.Policy
   Rotation:
-    model: github.com/target/goalert/schedule/rotation.Rotation
+    model: github.com/breathbath/goalert/schedule/rotation.Rotation
   Schedule:
-    model: github.com/target/goalert/schedule.Schedule
+    model: github.com/breathbath/goalert/schedule.Schedule
   UserCalendarSubscription:
-    model: github.com/target/goalert/calsub.Subscription
+    model: github.com/breathbath/goalert/calsub.Subscription
   ServiceOnCallUser:
-    model: github.com/target/goalert/oncall.ServiceOnCallUser
+    model: github.com/breathbath/goalert/oncall.ServiceOnCallUser
   EscalationPolicyStep:
-    model: github.com/target/goalert/escalation.Step
+    model: github.com/breathbath/goalert/escalation.Step
   RotationType:
-    model: github.com/target/goalert/schedule/rotation.Type
+    model: github.com/breathbath/goalert/schedule/rotation.Type
   IntegrationKey:
-    model: github.com/target/goalert/integrationkey.IntegrationKey
+    model: github.com/breathbath/goalert/integrationkey.IntegrationKey
   Label:
-    model: github.com/target/goalert/label.Label
+    model: github.com/breathbath/goalert/label.Label
   ClockTime:
-    model: github.com/target/goalert/util/timeutil.Clock
+    model: github.com/breathbath/goalert/util/timeutil.Clock
   ScheduleRule:
-    model: github.com/target/goalert/schedule/rule.Rule
+    model: github.com/breathbath/goalert/schedule/rule.Rule
   UserOverride:
-    model: github.com/target/goalert/override.UserOverride
+    model: github.com/breathbath/goalert/override.UserOverride
   OnCallShift:
-    model: github.com/target/goalert/oncall.Shift
+    model: github.com/breathbath/goalert/oncall.Shift
   ContactMethodType:
-    model: github.com/target/goalert/graphql2.ContactMethodType
+    model: github.com/breathbath/goalert/graphql2.ContactMethodType
   SlackChannel:
-    model: github.com/target/goalert/notification/slack.Channel
+    model: github.com/breathbath/goalert/notification/slack.Channel
   SlackUserGroup:
-    model: github.com/target/goalert/notification/slack.UserGroup
+    model: github.com/breathbath/goalert/notification/slack.UserGroup
   HeartbeatMonitor:
-    model: github.com/target/goalert/heartbeat.Monitor
+    model: github.com/breathbath/goalert/heartbeat.Monitor
   HeartbeatMonitorState:
-    model: github.com/target/goalert/heartbeat.State
+    model: github.com/breathbath/goalert/heartbeat.State
   SystemLimitID:
-    model: github.com/target/goalert/limit.ID
+    model: github.com/breathbath/goalert/limit.ID
   DebugCarrierInfo:
-    model: github.com/target/goalert/notification/twilio.CarrierInfo
+    model: github.com/breathbath/goalert/notification/twilio.CarrierInfo
   Notice:
-    model: github.com/target/goalert/notice.Notice
+    model: github.com/breathbath/goalert/notice.Notice
   NoticeType:
-    model: github.com/target/goalert/notice.Type
+    model: github.com/breathbath/goalert/notice.Type
   SetScheduleShiftInput:
-    model: github.com/target/goalert/schedule.FixedShift
+    model: github.com/breathbath/goalert/schedule.FixedShift
   TemporarySchedule:
-    model: github.com/target/goalert/schedule.TemporarySchedule
+    model: github.com/breathbath/goalert/schedule.TemporarySchedule
   OnCallNotificationRule:
-    model: github.com/target/goalert/schedule.OnCallNotificationRule
+    model: github.com/breathbath/goalert/schedule.OnCallNotificationRule
   OnCallNotificationRuleInput:
-    model: github.com/target/goalert/graphql2.OnCallNotificationRuleInput
+    model: github.com/breathbath/goalert/graphql2.OnCallNotificationRuleInput
   WeekdayFilter:
-    model: github.com/target/goalert/util/timeutil.WeekdayFilter
+    model: github.com/breathbath/goalert/util/timeutil.WeekdayFilter
   AlertMetric:
-    model: github.com/target/goalert/alert/alertmetrics.Metric
+    model: github.com/breathbath/goalert/alert/alertmetrics.Metric
   ID:
     model:
       - github.com/99designs/gqlgen/graphql.ID
       - github.com/google/uuid.UUID
-      - github.com/target/goalert/schedule.RuleID
+      - github.com/breathbath/goalert/schedule.RuleID
   MessageLogConnectionStats:
-    model: github.com/target/goalert/notification.SearchOptions
+    model: github.com/breathbath/goalert/notification.SearchOptions
   ExprExpression:
-    model: github.com/target/goalert/graphql2.ExprExpression
+    model: github.com/breathbath/goalert/graphql2.ExprExpression
   ExprBooleanExpression:
-    model: github.com/target/goalert/graphql2.ExprBooleanExpression
+    model: github.com/breathbath/goalert/graphql2.ExprBooleanExpression
   ExprStringExpression:
-    model: github.com/target/goalert/graphql2.ExprStringExpression
+    model: github.com/breathbath/goalert/graphql2.ExprStringExpression
   ExprValue:
-    model: github.com/target/goalert/graphql2.ExprValue
+    model: github.com/breathbath/goalert/graphql2.ExprValue
   ExprIdentifier:
-    model: github.com/target/goalert/graphql2.ExprIdentifier
+    model: github.com/breathbath/goalert/graphql2.ExprIdentifier

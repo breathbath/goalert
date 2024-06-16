@@ -3,7 +3,7 @@ package alert
 import (
 	"context"
 
-	"github.com/target/goalert/alert/alertlog"
+	"github.com/breathbath/goalert/alert/alertlog"
 
 	"github.com/pkg/errors"
 )

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/target/goalert/notification"
+	"github.com/breathbath/goalert/notification"
 )
 
 // CallStatus indicates the state of a voice call.

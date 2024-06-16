@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/target/goalert/notification"
+	"github.com/breathbath/goalert/notification"
 )
 
 func (n *Engine) IsKnownDest(ctx context.Context, destType notification.DestType, destValue string) (bool, error) {

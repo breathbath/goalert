@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/target/goalert/util/timeutil"
+	"github.com/breathbath/goalert/util/timeutil"
 )
 
 const timeFmt = "Mon Jan _2 3:04PM 2006"

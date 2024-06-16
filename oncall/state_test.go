@@ -4,12 +4,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/override"
-	"github.com/target/goalert/schedule"
-	"github.com/target/goalert/schedule/rotation"
-	"github.com/target/goalert/schedule/rule"
-	"github.com/target/goalert/util/timeutil"
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/override"
+	"github.com/breathbath/goalert/schedule"
+	"github.com/breathbath/goalert/schedule/rotation"
+	"github.com/breathbath/goalert/schedule/rule"
+	"github.com/breathbath/goalert/util/timeutil"
 )
 
 func BenchmarkState_CalculateShifts(b *testing.B) {

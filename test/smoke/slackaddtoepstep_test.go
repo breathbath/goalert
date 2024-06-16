@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestSlackAddToEPStep tests that slack channels can be added to an EPStep.

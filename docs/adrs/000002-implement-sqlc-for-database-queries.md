@@ -6,8 +6,8 @@
 **Acceptance Criteria**: Clear Consensus: Simple Majority of requested reviewers AND no rejections
 
 Technical Story: 
-- Proposal: [Migrate from util.Prepare to sqlc queries](https://github.com/target/goalert/issues/3108)
-- Progress: [go: use sqlc for all db calls](https://github.com/target/goalert/issues/3235)
+- Proposal: [Migrate from util.Prepare to sqlc queries](https://github.com/breathbath/goalert/issues/3108)
+- Progress: [go: use sqlc for all db calls](https://github.com/breathbath/goalert/issues/3235)
 
 ## Context and Problem Statement
 

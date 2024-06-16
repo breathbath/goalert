@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestPrioritization tests that notifications for new users/alerts get

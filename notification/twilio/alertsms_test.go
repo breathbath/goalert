@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/breathbath/goalert/notification"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/notification"
 )
 
 func resultCheck(t *testing.T, expected string, res string, err error) {

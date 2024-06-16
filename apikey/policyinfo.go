@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"errors"
 
+	"github.com/breathbath/goalert/gadb"
 	"github.com/google/uuid"
-	"github.com/target/goalert/gadb"
 )
 
 type policyInfo struct {

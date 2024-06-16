@@ -3,8 +3,8 @@ package swosync
 import (
 	"context"
 
+	"github.com/breathbath/goalert/swo/swoinfo"
 	"github.com/jackc/pgx/v5"
-	"github.com/target/goalert/swo/swoinfo"
 )
 
 // LogicalReplicator manages synchronizing the source database to the destination database.

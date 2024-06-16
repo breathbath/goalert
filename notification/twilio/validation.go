@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/util/log"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/util/log"
 
 	"github.com/pkg/errors"
 )

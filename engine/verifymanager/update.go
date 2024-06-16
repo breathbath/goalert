@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util/log"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util/log"
 
 	"github.com/pkg/errors"
 )

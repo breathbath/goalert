@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/notification"
+	"github.com/breathbath/goalert/util/log"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/notification"
-	"github.com/target/goalert/util/log"
 )
 
 // DefaultTwilioAPIURL is the value that will be used for API calls if Config.BaseURL is empty.

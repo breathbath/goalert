@@ -3,8 +3,8 @@ package notificationchannel
 import (
 	"strings"
 
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/google/uuid"
-	"github.com/target/goalert/validation/validate"
 )
 
 type Channel struct {

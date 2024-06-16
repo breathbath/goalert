@@ -16,10 +16,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/target/goalert/util"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/util/sqlutil"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/util"
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/util/sqlutil"
+	"github.com/breathbath/goalert/validation/validate"
 
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/pkg/errors"

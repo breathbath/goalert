@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/breathbath/goalert/swo/swodb"
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5"
-	"github.com/target/goalert/swo/swodb"
 )
 
 // DB contains information about a database.

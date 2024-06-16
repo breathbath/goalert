@@ -4,13 +4,13 @@ import (
 	"context"
 	"database/sql"
 
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/search"
+	"github.com/breathbath/goalert/util"
+	"github.com/breathbath/goalert/util/sqlutil"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/google/uuid"
 	"github.com/jackc/pgtype"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/search"
-	"github.com/target/goalert/util"
-	"github.com/target/goalert/util/sqlutil"
-	"github.com/target/goalert/validation/validate"
 )
 
 // Store manages heartbeat checks and recording heartbeats.

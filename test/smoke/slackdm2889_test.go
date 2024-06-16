@@ -3,7 +3,7 @@ package smoke
 import (
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestSlackDM2889 tests that slack DMs update correctly, even when the old status log config is present (issue #2889).

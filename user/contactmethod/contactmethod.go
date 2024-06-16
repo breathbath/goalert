@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"time"
 
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/google/uuid"
-	"github.com/target/goalert/validation/validate"
 )
 
 // ContactMethod stores the information for contacting a user.

@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/limit"
+	"github.com/breathbath/goalert/test/smoke/harness"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/limit"
-	"github.com/target/goalert/test/smoke/harness"
 )
 
 // TestSystemLimits tests that limits are enforced if configured.

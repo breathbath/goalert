@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"strconv"
 
+	"github.com/breathbath/goalert/validation"
 	"github.com/google/uuid"
-	"github.com/target/goalert/validation"
 )
 
 // UUID will validate a UUID, returning a FieldError

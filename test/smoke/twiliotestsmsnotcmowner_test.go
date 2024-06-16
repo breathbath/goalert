@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/breathbath/goalert/test/smoke/harness"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/test/smoke/harness"
 )
 
 // TestTwilioSMSNotCMOwner checks that a test sent from a user who is not the

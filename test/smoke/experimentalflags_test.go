@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"testing"
 
+	"github.com/breathbath/goalert/expflag"
+	"github.com/breathbath/goalert/test/smoke/harness"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/expflag"
-	"github.com/target/goalert/test/smoke/harness"
 )
 
 // TestExperimentalFlag_None tests the GraphQL API when no experimental flags are set.

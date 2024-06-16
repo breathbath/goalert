@@ -11,12 +11,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/breathbath/goalert/auth"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/util/log"
 	"github.com/coreos/go-oidc/v3/oidc"
 	"github.com/jmespath/go-jmespath"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/auth"
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/util/log"
 	"golang.org/x/oauth2"
 )
 

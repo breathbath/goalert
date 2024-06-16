@@ -3,8 +3,8 @@ package smoke
 import (
 	"testing"
 
+	"github.com/breathbath/goalert/test/smoke/harness"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/test/smoke/harness"
 )
 
 // TestTwilioURL_SMS checks that the GoAlert link in the SMS is correct

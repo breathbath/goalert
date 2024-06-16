@@ -5,11 +5,11 @@ import (
 	"database/sql"
 	"fmt"
 
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util/timeutil"
+	"github.com/breathbath/goalert/validation"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/google/uuid"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util/timeutil"
-	"github.com/target/goalert/validation"
-	"github.com/target/goalert/validation/validate"
 )
 
 const onCallNotificationRuleLimit = 50

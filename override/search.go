@@ -5,13 +5,13 @@ import (
 	"database/sql"
 	"time"
 
+	"github.com/breathbath/goalert/gadb"
 	"github.com/google/uuid"
-	"github.com/target/goalert/gadb"
 
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/search"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/search"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 // SearchOptions allow filtering and paginating the list of rotations.

@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/target/goalert/util"
-	"github.com/target/goalert/util/log"
+	"github.com/breathbath/goalert/util"
+	"github.com/breathbath/goalert/util/log"
 
 	"github.com/google/uuid"
 	"github.com/pkg/errors"

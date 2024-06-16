@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"net/http"
 
-	"github.com/target/goalert/user/contactmethod"
+	"github.com/breathbath/goalert/user/contactmethod"
 )
 
 const (

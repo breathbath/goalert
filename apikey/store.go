@@ -9,15 +9,15 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/breathbath/goalert/gadb"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/keyring"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/util/sqlutil"
+	"github.com/breathbath/goalert/validation"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/google/uuid"
-	"github.com/target/goalert/gadb"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/keyring"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/util/sqlutil"
-	"github.com/target/goalert/validation"
-	"github.com/target/goalert/validation/validate"
 )
 
 // Store is used to manage API keys.

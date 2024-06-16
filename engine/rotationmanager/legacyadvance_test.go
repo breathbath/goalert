@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/schedule/rotation"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/schedule/rotation"
 )
 
 func TestCalcOldEndTime(t *testing.T) {

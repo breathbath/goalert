@@ -1,8 +1,8 @@
 package schedule
 
 import (
-	"github.com/target/goalert/validation"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/validation"
+	"github.com/breathbath/goalert/validation/validate"
 	"time"
 )
 

@@ -6,13 +6,13 @@ import (
 	"strings"
 	"text/template"
 
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/search"
+	"github.com/breathbath/goalert/user/contactmethod"
+	"github.com/breathbath/goalert/util/sqlutil"
+	"github.com/breathbath/goalert/validation"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/search"
-	"github.com/target/goalert/user/contactmethod"
-	"github.com/target/goalert/util/sqlutil"
-	"github.com/target/goalert/validation"
-	"github.com/target/goalert/validation/validate"
 )
 
 // SearchOptions allow filtering and paginating the list of users.

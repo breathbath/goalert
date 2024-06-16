@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestStatusUpdatesCancel checks that status updates are unsubscribed when updates, or the contact method, are disabled.

@@ -3,7 +3,7 @@ package smoke
 import (
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestCMTestDisable checks for a condition where a test message is scheduled but the contact method is immediately disabled.

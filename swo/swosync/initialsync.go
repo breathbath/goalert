@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 
+	"github.com/breathbath/goalert/swo/swoinfo"
+	"github.com/breathbath/goalert/util/sqlutil"
 	"github.com/jackc/pgx/v5"
-	"github.com/target/goalert/swo/swoinfo"
-	"github.com/target/goalert/util/sqlutil"
 )
 
 const maxBatchSize = 1024 * 1024 // 1MB

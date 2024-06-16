@@ -3,7 +3,7 @@ package rotationmanager
 import (
 	"time"
 
-	"github.com/target/goalert/schedule/rotation"
+	"github.com/breathbath/goalert/schedule/rotation"
 )
 
 // legacyAddHours is preserved from the old rotation calculation code to migrate from version 1 to 2.

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/util/sqlutil"
 	"github.com/google/uuid"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/util/sqlutil"
 )
 
 // UpdateAll will process compatibility entries for the cycle.

@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/notification"
 	"github.com/matcornic/hermes/v2"
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/notification"
 	"gopkg.in/gomail.v2"
 )
 

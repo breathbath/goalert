@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/breathbath/goalert/devtools/pgdump-lite"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/devtools/pgdump-lite"
 )
 
 // IgnoreRule is a rule to ignore differences in a snapshot.

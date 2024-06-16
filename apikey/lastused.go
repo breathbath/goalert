@@ -4,9 +4,9 @@ import (
 	"context"
 	"net"
 
+	"github.com/breathbath/goalert/gadb"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/google/uuid"
-	"github.com/target/goalert/gadb"
-	"github.com/target/goalert/validation/validate"
 )
 
 // _updateLastUsed will record usage for the given API key ID, user agent, and IP address.

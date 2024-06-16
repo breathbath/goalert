@@ -4,11 +4,11 @@ import (
 	context "context"
 	"database/sql"
 
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/label"
-	"github.com/target/goalert/search"
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/label"
+	"github.com/breathbath/goalert/search"
+	"github.com/breathbath/goalert/validation"
 )
 
 func (q *Query) LabelKeys(ctx context.Context, input *graphql2.LabelKeySearchOptions) (conn *graphql2.StringConnection, err error) {

@@ -6,10 +6,10 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/breathbath/goalert/notification"
+	"github.com/breathbath/goalert/user"
+	"github.com/breathbath/goalert/util/log"
 	"github.com/slack-go/slack/slackutilsx"
-	"github.com/target/goalert/notification"
-	"github.com/target/goalert/user"
-	"github.com/target/goalert/util/log"
 )
 
 // onCallNotificationText will return text intended to be sent to Slack representing a ScheduleOnCallUsers notification.

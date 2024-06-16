@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/validation"
 )
 
 func MapConfigHints(cfg config.Hints) []ConfigHint {

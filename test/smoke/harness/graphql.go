@@ -11,12 +11,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/breathbath/goalert/auth"
+	"github.com/breathbath/goalert/limit"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/user"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/auth"
-	"github.com/target/goalert/limit"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/user"
 )
 
 // DefaultGraphQLAdminUserID is the UserID created & used for GraphQL calls by default.

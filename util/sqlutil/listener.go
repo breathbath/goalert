@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/breathbath/goalert/util/log"
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/jackc/pgx/v5/stdlib"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/util/log"
 )
 
 // Listener will listen for NOTIFY commands on a set of channels.

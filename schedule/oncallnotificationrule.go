@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/99designs/gqlgen/graphql"
+	"github.com/breathbath/goalert/util/timeutil"
+	"github.com/breathbath/goalert/validation"
 	"github.com/google/uuid"
-	"github.com/target/goalert/util/timeutil"
-	"github.com/target/goalert/validation"
 )
 
 // An OnCallNotificationRule defines when notifications for on-call users for a schedule

@@ -3,7 +3,7 @@ package smoke
 import (
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestMessageBundle_Voice checks that SMS status updates and alert notifications are bundled when General.MessageBundles is enabled.

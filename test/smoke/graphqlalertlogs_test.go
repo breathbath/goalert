@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestGraphQLAlertLogs tests that logs are properly generated for an alert.

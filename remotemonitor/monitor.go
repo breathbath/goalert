@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/notification/twilio"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/notification/twilio"
 )
 
 // Monitor will check for functionality and communication between itself and one or more instances.

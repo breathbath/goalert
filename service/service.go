@@ -3,7 +3,7 @@ package service
 import (
 	"time"
 
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 type Service struct {

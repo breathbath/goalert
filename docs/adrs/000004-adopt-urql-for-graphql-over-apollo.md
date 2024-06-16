@@ -7,7 +7,7 @@
 
 Clear Consensus: Simple Majority of requested reviewers AND no rejections
 
-Technical Story: https://github.com/target/goalert/issues/3240
+Technical Story: https://github.com/breathbath/goalert/issues/3240
 
 ## Context and Problem Statement
 
@@ -51,4 +51,4 @@ Chosen option: "Switch to URQL", because it aligns well with React hooks, provid
 ## Links
 
 - [URQL Documentation](https://formidable.com/open-source/urql/docs/)
-- [Issue Link](https://github.com/target/goalert/issues/3240)
+- [Issue Link](https://github.com/breathbath/goalert/issues/3240)

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/target/goalert/util/log"
+	"github.com/breathbath/goalert/util/log"
 
 	"github.com/pkg/errors"
 )

@@ -8,13 +8,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/breathbath/goalert/alert"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/retry"
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/emersion/go-smtp"
 	"github.com/mnako/letters"
-	"github.com/target/goalert/alert"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/retry"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/validation/validate"
 )
 
 // Session implements an SMTP session that creates alerts.

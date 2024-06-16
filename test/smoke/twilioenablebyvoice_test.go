@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestTwilioEnablebyVoice checks that all contact methods with the same value and of the same user are enabled when the user responds via Voice with the correct code.

@@ -3,7 +3,7 @@ package search
 import (
 	"encoding/base64"
 	"encoding/json"
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/validation"
 )
 
 // ParseCursor will parse the data held in cursor c into the passed state object.

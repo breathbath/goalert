@@ -3,7 +3,7 @@ package oncall
 import (
 	"time"
 
-	"github.com/target/goalert/assignment"
+	"github.com/breathbath/goalert/assignment"
 )
 
 // SingleRuleCalculator will calculate the currently active user.

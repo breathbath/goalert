@@ -8,14 +8,14 @@ import (
 	"sync"
 	"time"
 
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/notification"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/validation"
 	"github.com/pkg/errors"
 	"github.com/slack-go/slack"
 	"github.com/slack-go/slack/slackutilsx"
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/notification"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/validation"
 )
 
 type ChannelSender struct {

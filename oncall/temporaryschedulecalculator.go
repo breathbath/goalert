@@ -3,7 +3,7 @@ package oncall
 import (
 	"sort"
 
-	"github.com/target/goalert/schedule"
+	"github.com/breathbath/goalert/schedule"
 )
 
 // TemporaryScheduleCalculator will calculate active state and active users for a set of TemporarySchedules.

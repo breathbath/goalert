@@ -1,11 +1,11 @@
 package auth
 
 import (
-	"github.com/target/goalert/apikey"
-	"github.com/target/goalert/calsub"
-	"github.com/target/goalert/integrationkey"
-	"github.com/target/goalert/keyring"
-	"github.com/target/goalert/user"
+	"github.com/breathbath/goalert/apikey"
+	"github.com/breathbath/goalert/calsub"
+	"github.com/breathbath/goalert/integrationkey"
+	"github.com/breathbath/goalert/keyring"
+	"github.com/breathbath/goalert/user"
 )
 
 // HandlerConfig provides configuration for the auth handler.

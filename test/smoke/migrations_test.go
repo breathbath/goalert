@@ -12,13 +12,13 @@ import (
 	"text/template"
 	"time"
 
+	"github.com/breathbath/goalert/migrate"
+	"github.com/breathbath/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/migratetest"
+	"github.com/breathbath/goalert/util/sqlutil"
 	"github.com/google/uuid"
 	_ "github.com/jackc/pgx/v5/stdlib" // import db driver
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/migrate"
-	"github.com/target/goalert/test/smoke/harness"
-	"github.com/target/goalert/test/smoke/migratetest"
-	"github.com/target/goalert/util/sqlutil"
 )
 
 // DefaultSkipToMigration is the default migration to skip to when running the migration tests.

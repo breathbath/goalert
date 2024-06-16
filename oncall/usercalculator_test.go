@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/oncall"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/oncall"
 )
 
 func TestUserCalculator(t *testing.T) {

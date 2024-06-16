@@ -4,12 +4,12 @@ import (
 	"context"
 	"net/http"
 
+	"github.com/breathbath/goalert/auth"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/util/errutil"
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/auth"
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/util/errutil"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/validation/validate"
 )
 
 // Info implements the auth.Provider interface.

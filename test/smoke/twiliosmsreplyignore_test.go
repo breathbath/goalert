@@ -3,7 +3,7 @@ package smoke
 import (
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestTwilioSMSReplyIgnore checks that replies are dropped/ignored for unknown/disabled contact methods.

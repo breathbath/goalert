@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/target/goalert/engine/processinglock"
+	"github.com/breathbath/goalert/engine/processinglock"
 )
 
 // DB manages outgoing status updates.

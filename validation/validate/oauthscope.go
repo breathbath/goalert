@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/validation"
 )
 
 // OAuthScope is a valid OAuth 2.0 Scope parameter, optionally specifying a list of required scopes.

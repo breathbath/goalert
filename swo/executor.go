@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/breathbath/goalert/swo/swogrp"
+	"github.com/breathbath/goalert/swo/swosync"
 	"github.com/jackc/pgx/v5"
-	"github.com/target/goalert/swo/swogrp"
-	"github.com/target/goalert/swo/swosync"
 )
 
 // Executor is responsible for executing the switchover process.

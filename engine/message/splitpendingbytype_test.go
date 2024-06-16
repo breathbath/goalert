@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/notification"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/notification"
 )
 
 func TestSplitPendingByType(t *testing.T) {

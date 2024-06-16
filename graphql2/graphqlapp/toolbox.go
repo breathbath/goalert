@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"net/url"
 
+	"github.com/breathbath/goalert/notification"
+	"github.com/breathbath/goalert/validation"
 	"github.com/nyaruka/phonenumbers"
-	"github.com/target/goalert/notification"
-	"github.com/target/goalert/validation"
 
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/notification/twilio"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/notification/twilio"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 type safeErr struct{ error }

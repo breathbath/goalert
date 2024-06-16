@@ -1,6 +1,6 @@
 package limit
 
-import "github.com/target/goalert/validation/validate"
+import "github.com/breathbath/goalert/validation/validate"
 
 // ID represents the identifier for a given system limit.
 type ID string

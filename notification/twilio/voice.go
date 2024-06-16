@@ -14,15 +14,15 @@ import (
 	"strings"
 	"time"
 
+	"github.com/breathbath/goalert/alert"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/notification"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/retry"
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/validation"
 	"github.com/nyaruka/phonenumbers"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/alert"
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/notification"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/retry"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/validation"
 )
 
 // CallType indicates a supported Twilio voice call type.

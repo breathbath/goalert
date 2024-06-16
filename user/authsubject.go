@@ -1,7 +1,7 @@
 package user
 
 import (
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 // An AuthSubject contains information about the auth provider and subject ID for a particular user.

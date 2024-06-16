@@ -4,9 +4,9 @@ import (
 	context "context"
 	"database/sql"
 
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/user/contactmethod"
-	"github.com/target/goalert/user/notificationrule"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/user/contactmethod"
+	"github.com/breathbath/goalert/user/notificationrule"
 )
 
 type UserNotificationRule App

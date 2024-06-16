@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/target/goalert/app/lifecycle"
-	"github.com/target/goalert/expflag"
-	"github.com/target/goalert/notification"
-	"github.com/target/goalert/notification/email"
-	"github.com/target/goalert/notification/webhook"
-	"github.com/target/goalert/retry"
-	"github.com/target/goalert/util/log"
+	"github.com/breathbath/goalert/app/lifecycle"
+	"github.com/breathbath/goalert/expflag"
+	"github.com/breathbath/goalert/notification"
+	"github.com/breathbath/goalert/notification/email"
+	"github.com/breathbath/goalert/notification/webhook"
+	"github.com/breathbath/goalert/retry"
+	"github.com/breathbath/goalert/util/log"
 
 	"github.com/pkg/errors"
 )

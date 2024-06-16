@@ -3,8 +3,8 @@ package swoinfo
 import (
 	"context"
 
+	"github.com/breathbath/goalert/swo/swodb"
 	"github.com/jackc/pgx/v5"
-	"github.com/target/goalert/swo/swodb"
 )
 
 // ConnCount represents the number of connections to a database for the given application name.

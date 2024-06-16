@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // RotationDelUser tests that rotations preserve the active user when a user is deleted.

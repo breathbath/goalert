@@ -5,7 +5,7 @@ import (
 	"flag"
 	"os"
 
-	"github.com/target/goalert/migrate"
+	"github.com/breathbath/goalert/migrate"
 )
 
 func main() {

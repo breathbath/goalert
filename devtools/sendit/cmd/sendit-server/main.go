@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/target/goalert/devtools/sendit"
+	"github.com/breathbath/goalert/devtools/sendit"
 )
 
 func serverWrapper(redirHTTPFwd bool, next http.Handler) http.Handler {

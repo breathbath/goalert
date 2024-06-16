@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/target/goalert/version"
+	"github.com/breathbath/goalert/version"
 )
 
 // AppVersion returns the version string from `app.js` (if available).

@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/target/goalert/config"
+	"github.com/breathbath/goalert/config"
 	"golang.org/x/oauth2"
 	o2Github "golang.org/x/oauth2/github"
 )

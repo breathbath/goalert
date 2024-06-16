@@ -5,14 +5,14 @@ import (
 	"database/sql"
 	"sort"
 
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util"
+	"github.com/breathbath/goalert/util/sqlutil"
+	"github.com/breathbath/goalert/validation"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util"
-	"github.com/target/goalert/util/sqlutil"
-	"github.com/target/goalert/validation"
-	"github.com/target/goalert/validation/validate"
 )
 
 // ErrNoState is returned when there is no state information available for a rotation.

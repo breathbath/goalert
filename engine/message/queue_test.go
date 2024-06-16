@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/notification"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/notification"
 )
 
 func TestQueue_Sort(t *testing.T) {

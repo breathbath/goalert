@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/breathbath/goalert/util/sqlutil"
 	"github.com/jackc/pgx/v5"
-	"github.com/target/goalert/util/sqlutil"
 )
 
 func main() {

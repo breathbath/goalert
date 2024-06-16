@@ -1,7 +1,7 @@
 package message
 
 import (
-	"github.com/target/goalert/notification"
+	"github.com/breathbath/goalert/notification"
 )
 
 // splitPendingByType will split a list of messages returning only unsent and matching at least one of the provided

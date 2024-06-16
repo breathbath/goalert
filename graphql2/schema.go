@@ -4,7 +4,7 @@ import (
 	_ "embed"
 	"sort"
 
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/validation"
 	"github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 	"github.com/vektah/gqlparser/v2/validator"

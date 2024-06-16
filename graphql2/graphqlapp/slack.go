@@ -8,11 +8,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/notification/slack"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/search"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/notification/slack"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/search"
 )
 
 func (q *Query) SlackChannel(ctx context.Context, id string) (*slack.Channel, error) {

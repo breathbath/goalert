@@ -5,7 +5,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestSlackChannels tests that slack channels are returned for configured users.

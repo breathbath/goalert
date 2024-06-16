@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/target/goalert/notification/twilio"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/notification/twilio"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 // SMS represents an SMS message.

@@ -3,8 +3,8 @@ package calsub
 import (
 	"time"
 
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/google/uuid"
-	"github.com/target/goalert/validation/validate"
 )
 
 // Subscription stores the information from user subscriptions

@@ -5,13 +5,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/schedule/rule"
+	"github.com/breathbath/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/util/timeutil"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/schedule/rule"
-	"github.com/target/goalert/test/smoke/harness"
-	"github.com/target/goalert/util/timeutil"
 )
 
 // TestOnCallNotify will validate that on-change notifications are sent for schedules.

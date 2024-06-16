@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/breathbath/goalert/alert"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util/log"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/alert"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util/log"
 )
 
 func TestSession_Auth(t *testing.T) {

@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"encoding/json"
 
+	"github.com/breathbath/goalert/util/jsonutil"
+	"github.com/breathbath/goalert/util/sqlutil"
 	"github.com/google/uuid"
-	"github.com/target/goalert/util/jsonutil"
-	"github.com/target/goalert/util/sqlutil"
 )
 
 func (store *Store) scheduleData(ctx context.Context, tx *sql.Tx, scheduleID uuid.UUID) (*Data, error) {

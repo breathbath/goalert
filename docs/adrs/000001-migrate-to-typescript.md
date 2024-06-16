@@ -5,7 +5,7 @@
 
 **Acceptance Criteria**: Clear Consensus: Simple Majority of requested reviewers AND no rejections
 
-Technical Story: https://github.com/target/goalert/issues/2318
+Technical Story: https://github.com/breathbath/goalert/issues/2318
 
 ## Context and Problem Statement
 
@@ -49,5 +49,5 @@ Chosen option: "Migrate to TypeScript", because it introduces static typing to t
 
 ## Links
 
-- [Issue Link](https://github.com/target/goalert/issues/2318)
+- [Issue Link](https://github.com/breathbath/goalert/issues/2318)
 - [TypeScript Official Documentation](https://www.typescriptlang.org/docs/)

@@ -6,16 +6,16 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/override"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/schedule"
+	"github.com/breathbath/goalert/schedule/rule"
+	"github.com/breathbath/goalert/util"
+	"github.com/breathbath/goalert/util/sqlutil"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/override"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/schedule"
-	"github.com/target/goalert/schedule/rule"
-	"github.com/target/goalert/util"
-	"github.com/target/goalert/util/sqlutil"
-	"github.com/target/goalert/validation/validate"
 )
 
 // ScheduleOnCallUser represents a currently on-call user for a schedule.

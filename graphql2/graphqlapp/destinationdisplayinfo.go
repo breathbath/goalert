@@ -5,12 +5,12 @@ import (
 	"net/mail"
 	"net/url"
 
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/util/errutil"
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/validation"
 	"github.com/nyaruka/phonenumbers"
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/util/errutil"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/validation"
 )
 
 type (

@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/breathbath/goalert/test/smoke/harness"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/test/smoke/harness"
 )
 
 func TestPrometheusAlertManager(t *testing.T) {

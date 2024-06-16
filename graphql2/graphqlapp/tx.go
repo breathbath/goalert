@@ -4,8 +4,8 @@ import (
 	context "context"
 	"database/sql"
 
-	"github.com/target/goalert/util/errutil"
-	"github.com/target/goalert/util/sqlutil"
+	"github.com/breathbath/goalert/util/errutil"
+	"github.com/breathbath/goalert/util/sqlutil"
 )
 
 // withContextTx is a helper function that handles starting and using a single transaction for a request.

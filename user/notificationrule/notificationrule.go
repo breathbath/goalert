@@ -1,7 +1,7 @@
 package notificationrule
 
 import (
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 type NotificationRule struct {

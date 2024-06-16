@@ -7,8 +7,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/breathbath/goalert/config"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/config"
 )
 
 func TestTwiMLResponse(t *testing.T) {

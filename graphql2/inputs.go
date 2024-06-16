@@ -1,8 +1,8 @@
 package graphql2
 
 import (
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/schedule"
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/schedule"
 )
 
 type OnCallNotificationRuleInput struct {

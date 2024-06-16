@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"time"
 
+	"github.com/breathbath/goalert/util/log"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/util/log"
 )
 
 var _fib = []int{0, 1}

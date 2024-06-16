@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util/log"
 	"github.com/felixge/httpsnoop"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util/log"
 )
 
 type _reqInfoCtxKey string

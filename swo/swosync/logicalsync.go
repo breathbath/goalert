@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/util/sqlutil"
 	"github.com/jackc/pgx/v5"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/util/sqlutil"
 )
 
 // LogicalSync will sync the source database to the destination database as fast as possible.

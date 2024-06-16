@@ -5,13 +5,13 @@ import (
 	"database/sql"
 	"net/url"
 
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/integrationkey"
+	"github.com/breathbath/goalert/search"
+	"github.com/breathbath/goalert/validation"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/google/uuid"
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/integrationkey"
-	"github.com/target/goalert/search"
-	"github.com/target/goalert/validation"
-	"github.com/target/goalert/validation/validate"
 )
 
 type IntegrationKey App

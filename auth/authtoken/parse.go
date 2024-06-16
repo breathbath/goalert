@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"time"
 
+	"github.com/breathbath/goalert/validation"
 	"github.com/google/uuid"
-	"github.com/target/goalert/validation"
 )
 
 // A VerifyFunc will verify that the signature is valid for the given type and payload. Additionally,

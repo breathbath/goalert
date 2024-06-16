@@ -4,9 +4,9 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/breathbath/goalert/app/lifecycle"
+	"github.com/breathbath/goalert/util/errutil"
 	"github.com/google/uuid"
-	"github.com/target/goalert/app/lifecycle"
-	"github.com/target/goalert/util/errutil"
 )
 
 func (app *App) healthCheck(w http.ResponseWriter, req *http.Request) {

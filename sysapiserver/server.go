@@ -3,9 +3,9 @@ package sysapiserver
 import (
 	"context"
 
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/pkg/sysapi"
-	"github.com/target/goalert/user"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/pkg/sysapi"
+	"github.com/breathbath/goalert/user"
 )
 
 type Server struct {

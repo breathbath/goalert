@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/test/smoke/harness"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/test/smoke/harness"
 )
 
 // TestTwilioSID checks that messages to SMS and Voice numbers work when using a Messaging Service SID for Twilio.FromNumber.

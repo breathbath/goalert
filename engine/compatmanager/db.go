@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/target/goalert/engine/processinglock"
-	"github.com/target/goalert/notification/slack"
-	"github.com/target/goalert/util"
+	"github.com/breathbath/goalert/engine/processinglock"
+	"github.com/breathbath/goalert/notification/slack"
+	"github.com/breathbath/goalert/util"
 )
 
 // DB handles keeping compatibility-related data in sync.

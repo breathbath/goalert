@@ -3,8 +3,8 @@ package validate
 import (
 	"unicode"
 
+	"github.com/breathbath/goalert/validation"
 	"github.com/jmespath/go-jmespath"
-	"github.com/target/goalert/validation"
 )
 
 // JMESPath will validate a JMESPath expression.

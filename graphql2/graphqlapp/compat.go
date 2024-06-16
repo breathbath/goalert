@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/notificationchannel"
+	"github.com/breathbath/goalert/user/contactmethod"
 	"github.com/google/uuid"
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/notificationchannel"
-	"github.com/target/goalert/user/contactmethod"
 )
 
 // CompatTargetToDest converts an assignment.Target to a graphql2.Destination.

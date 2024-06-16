@@ -5,12 +5,12 @@ import (
 	"database/sql"
 	"fmt"
 
+	"github.com/breathbath/goalert/alert/alertlog"
+	"github.com/breathbath/goalert/engine/message"
+	"github.com/breathbath/goalert/notification"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util/log"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/alert/alertlog"
-	"github.com/target/goalert/engine/message"
-	"github.com/target/goalert/notification"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util/log"
 )
 
 func (p *Engine) sendMessage(ctx context.Context, msg *message.Message) (*notification.SendResult, error) {

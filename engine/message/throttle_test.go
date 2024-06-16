@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/engine/message"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/engine/message"
 )
 
 func TestThrottle(t *testing.T) {

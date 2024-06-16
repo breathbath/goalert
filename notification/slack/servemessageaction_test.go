@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/permission"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/permission"
 )
 
 func TestValidateRequestSignature(t *testing.T) {

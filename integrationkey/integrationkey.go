@@ -1,7 +1,7 @@
 package integrationkey
 
 import (
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 type IntegrationKey struct {

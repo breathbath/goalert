@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/target/goalert/swo/swodb"
-	"github.com/target/goalert/util/sqlutil"
+	"github.com/breathbath/goalert/swo/swodb"
+	"github.com/breathbath/goalert/util/sqlutil"
 )
 
 // Table represents a table in the database.

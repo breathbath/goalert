@@ -7,10 +7,10 @@ import (
 	"os"
 	"strings"
 
+	"github.com/breathbath/goalert/devtools/pgdump-lite"
+	"github.com/breathbath/goalert/devtools/pgdump-lite/pgd"
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/target/goalert/devtools/pgdump-lite"
-	"github.com/target/goalert/devtools/pgdump-lite/pgd"
 )
 
 func main() {

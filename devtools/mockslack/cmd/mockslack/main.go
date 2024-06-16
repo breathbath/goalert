@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/target/goalert/devtools/mockslack"
+	"github.com/breathbath/goalert/devtools/mockslack"
 )
 
 func main() {

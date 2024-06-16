@@ -8,7 +8,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/target/goalert/config"
+	"github.com/breathbath/goalert/config"
 )
 
 type twiMLResponse struct {

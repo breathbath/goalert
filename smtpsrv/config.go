@@ -4,8 +4,8 @@ import (
 	"context"
 	"crypto/tls"
 
-	"github.com/target/goalert/alert"
-	"github.com/target/goalert/util/log"
+	"github.com/breathbath/goalert/alert"
+	"github.com/breathbath/goalert/util/log"
 )
 
 // Config is used to configure the SMTP server.

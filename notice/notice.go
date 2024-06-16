@@ -6,7 +6,7 @@ import (
 	"io"
 
 	"github.com/99designs/gqlgen/graphql"
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/validation"
 )
 
 type Notice struct {

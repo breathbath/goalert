@@ -4,9 +4,9 @@ import (
 	"os"
 	_ "time/tzdata"
 
+	"github.com/breathbath/goalert/app"
+	"github.com/breathbath/goalert/util/log"
 	_ "github.com/joho/godotenv/autoload"
-	"github.com/target/goalert/app"
-	"github.com/target/goalert/util/log"
 )
 
 func main() {

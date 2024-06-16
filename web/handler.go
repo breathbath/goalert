@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/util/errutil"
-	"github.com/target/goalert/version"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/util/errutil"
+	"github.com/breathbath/goalert/version"
 )
 
 //go:embed src/build

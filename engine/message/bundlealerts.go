@@ -3,7 +3,7 @@ package message
 import (
 	"sort"
 
-	"github.com/target/goalert/notification"
+	"github.com/breathbath/goalert/notification"
 )
 
 func typeOrder(msg Message) int {

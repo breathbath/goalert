@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"slices"
 
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/gadb"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/gadb"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/validation/validate"
 )
 
 // Store allows the lookup and management of Favorites.

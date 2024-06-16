@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/target/goalert/config"
+	"github.com/breathbath/goalert/config"
 )
 
 func main() {

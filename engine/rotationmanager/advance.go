@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/target/goalert/schedule/rotation"
-	"github.com/target/goalert/util/log"
+	"github.com/breathbath/goalert/schedule/rotation"
+	"github.com/breathbath/goalert/util/log"
 )
 
 type advance struct {

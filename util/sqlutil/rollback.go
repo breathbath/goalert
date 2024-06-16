@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/breathbath/goalert/util/log"
 	"github.com/jackc/pgx/v5"
-	"github.com/target/goalert/util/log"
 )
 
 // Rollback will roll back the transaction, logging any potential errors other than ErrTxDone and ErrConnDone,

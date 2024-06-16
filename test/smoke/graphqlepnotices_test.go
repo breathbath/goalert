@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/breathbath/goalert/test/smoke/harness"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/test/smoke/harness"
 )
 
 // TestEPNotices tests notices are properly returned given the appropriate scenarios.

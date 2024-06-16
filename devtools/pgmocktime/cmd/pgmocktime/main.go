@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/target/goalert/devtools/pgmocktime"
+	"github.com/breathbath/goalert/devtools/pgmocktime"
 )
 
 func main() {

@@ -3,8 +3,8 @@ package smoke
 import (
 	"testing"
 
+	"github.com/breathbath/goalert/test/smoke/harness"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/test/smoke/harness"
 )
 
 // TestMissingUser tests that notifications go out, even when data is in an odd state.

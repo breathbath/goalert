@@ -3,8 +3,8 @@ package app
 import (
 	"context"
 
-	"github.com/target/goalert/expflag"
-	"github.com/target/goalert/util/log"
+	"github.com/breathbath/goalert/expflag"
+	"github.com/breathbath/goalert/util/log"
 )
 
 // Context returns a new context with the App's configuration for

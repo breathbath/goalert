@@ -7,8 +7,8 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/breathbath/goalert/test/smoke/harness"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/test/smoke/harness"
 )
 
 // TestAlertMetadata tests that creating an alert with metadata results in the metadata being included in the alert.

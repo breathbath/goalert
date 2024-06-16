@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/99designs/gqlgen/graphql"
-	"github.com/target/goalert/expflag"
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/expflag"
+	"github.com/breathbath/goalert/validation"
 )
 
 func Experimental(ctx context.Context, obj interface{}, next graphql.Resolver, flagName string) (res interface{}, err error) {

@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/schedule"
+	"github.com/breathbath/goalert/util/timeutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/schedule"
-	"github.com/target/goalert/util/timeutil"
 )
 
 func TestNextOnCallNotification(t *testing.T) {

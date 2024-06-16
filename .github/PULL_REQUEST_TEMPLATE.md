@@ -2,7 +2,7 @@
 <!-- Before submitting this PR, please make sure that you have: -->
 
 - [x] Identified the issue which this PR solves.
-- [ ] Read the [**CONTRIBUTING**](https://github.com/target/goalert/blob/master/CONTRIBUTING.md) document.
+- [ ] Read the [**CONTRIBUTING**](https://github.com/breathbath/goalert/blob/master/CONTRIBUTING.md) document.
 - [ ] Code builds clean without any errors or warnings.
 - [ ] Added appropriate tests for any new functionality.
 - [ ] All new and existing tests passed.

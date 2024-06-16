@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/oncall"
+	"github.com/breathbath/goalert/override"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/oncall"
-	"github.com/target/goalert/override"
 )
 
 func TestOverrideCalculator(t *testing.T) {

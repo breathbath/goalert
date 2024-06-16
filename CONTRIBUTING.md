@@ -4,7 +4,7 @@ We welcome feature requests, bug reports and contributions for code and document
 
 ## Reporting Issues
 
-Reporting bugs can be done in the GitHub [issue tracker](https://github.com/target/goalert/issues). Please search for existing issues first to help prevent duplicates.
+Reporting bugs can be done in the GitHub [issue tracker](https://github.com/breathbath/goalert/issues). Please search for existing issues first to help prevent duplicates.
 
 Please include the version (`goalert version`) with new bug reports.
 
@@ -22,7 +22,7 @@ As an example, things like DB changes/migrations should preserve behavior across
 
 ## Pull Requests
 
-Patches are welcome, but we ask that any significant change start as an [issue](https://github.com/target/goalert/issues/new) in the tracker, preferably before work is started.
+Patches are welcome, but we ask that any significant change start as an [issue](https://github.com/breathbath/goalert/issues/new) in the tracker, preferably before work is started.
 
 More information is available for [complex features](./docs/complex-features.md).
 

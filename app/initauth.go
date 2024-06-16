@@ -3,11 +3,11 @@ package app
 import (
 	"context"
 
+	"github.com/breathbath/goalert/auth"
+	"github.com/breathbath/goalert/auth/basic"
+	"github.com/breathbath/goalert/auth/github"
+	"github.com/breathbath/goalert/auth/oidc"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/auth"
-	"github.com/target/goalert/auth/basic"
-	"github.com/target/goalert/auth/github"
-	"github.com/target/goalert/auth/oidc"
 )
 
 func (app *App) initAuth(ctx context.Context) error {

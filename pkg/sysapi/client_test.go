@@ -8,7 +8,7 @@ import (
 	"io"
 	"log"
 
-	"github.com/target/goalert/pkg/sysapi"
+	"github.com/breathbath/goalert/pkg/sysapi"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/credentials/insecure"

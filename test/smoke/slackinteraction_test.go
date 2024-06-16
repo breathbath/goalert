@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestSlackInteraction checks that interactive slack messages work properly.

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/target/goalert/config"
+	"github.com/breathbath/goalert/config"
 )
 
 func hasType(typeName string, fields []field) bool {
@@ -32,8 +32,8 @@ var tmpl = template.Must(
 		}).
 		Parse(`
 import (
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/validation"
 )
 
 func MapConfigHints(cfg config.Hints) []ConfigHint {

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/breathbath/goalert/util/log"
 	"github.com/emersion/go-smtp"
-	"github.com/target/goalert/util/log"
 )
 
 // SMTPLogger implements the smtp.Logger interface using the main app Logger.

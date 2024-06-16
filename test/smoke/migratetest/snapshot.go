@@ -5,8 +5,8 @@ import (
 	"context"
 	"sync"
 
+	"github.com/breathbath/goalert/devtools/pgdump-lite"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/target/goalert/devtools/pgdump-lite"
 )
 
 // Snapshot is a snapshot of a database's schema and data.

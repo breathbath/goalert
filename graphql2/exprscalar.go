@@ -4,10 +4,10 @@ import (
 	"reflect"
 
 	"github.com/99designs/gqlgen/graphql"
+	"github.com/breathbath/goalert/validation"
 	"github.com/expr-lang/expr"
 	"github.com/expr-lang/expr/ast"
 	"github.com/expr-lang/expr/parser"
-	"github.com/target/goalert/validation"
 )
 
 // ExprIsID returns true if the node is a valid identifier.

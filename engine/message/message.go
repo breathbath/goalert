@@ -3,7 +3,7 @@ package message
 import (
 	"time"
 
-	"github.com/target/goalert/notification"
+	"github.com/breathbath/goalert/notification"
 )
 
 // Message represents the data for an outgoing message.

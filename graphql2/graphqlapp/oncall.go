@@ -2,9 +2,9 @@ package graphqlapp
 
 import (
 	context "context"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/oncall"
-	"github.com/target/goalert/user"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/oncall"
+	"github.com/breathbath/goalert/user"
 )
 
 type OnCallShift App

@@ -5,18 +5,18 @@ import (
 	"database/sql"
 	"fmt"
 
+	"github.com/breathbath/goalert/app/lifecycle"
+	"github.com/breathbath/goalert/swo/swodb"
+	"github.com/breathbath/goalert/swo/swogrp"
+	"github.com/breathbath/goalert/swo/swoinfo"
+	"github.com/breathbath/goalert/swo/swomsg"
+	"github.com/breathbath/goalert/swo/swosync"
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/util/sqldrv"
+	"github.com/breathbath/goalert/version"
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/target/goalert/app/lifecycle"
-	"github.com/target/goalert/swo/swodb"
-	"github.com/target/goalert/swo/swogrp"
-	"github.com/target/goalert/swo/swoinfo"
-	"github.com/target/goalert/swo/swomsg"
-	"github.com/target/goalert/swo/swosync"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/util/sqldrv"
-	"github.com/target/goalert/version"
 )
 
 // A Manager is responsible for managing the switchover process.

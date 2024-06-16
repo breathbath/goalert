@@ -1,7 +1,7 @@
 package slack
 
 import (
-	"github.com/target/goalert/user"
+	"github.com/breathbath/goalert/user"
 )
 
 // Config contains values used for the Slack notification sender.

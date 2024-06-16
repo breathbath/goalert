@@ -6,16 +6,16 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/breathbath/goalert/alert"
+	"github.com/breathbath/goalert/expflag"
+	"github.com/breathbath/goalert/gadb"
+	"github.com/breathbath/goalert/integrationkey"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util/errutil"
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/validation"
 	"github.com/expr-lang/expr"
 	"github.com/google/uuid"
-	"github.com/target/goalert/alert"
-	"github.com/target/goalert/expflag"
-	"github.com/target/goalert/gadb"
-	"github.com/target/goalert/integrationkey"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util/errutil"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/validation"
 )
 
 type Handler struct {

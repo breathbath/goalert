@@ -3,8 +3,8 @@ package app
 import (
 	"context"
 
-	"github.com/target/goalert/notification"
-	"github.com/target/goalert/notification/slack"
+	"github.com/breathbath/goalert/notification"
+	"github.com/breathbath/goalert/notification/slack"
 )
 
 func (app *App) initSlack(ctx context.Context) error {

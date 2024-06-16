@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
+	"github.com/breathbath/goalert/test/smoke/harness"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/test/smoke/harness"
 )
 
 // TestNotifiedAlerts tests that the alerts GraphQL query shows the proper amount of results when flipping between "includeNotified" and "favoritesOnly" query options.

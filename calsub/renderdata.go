@@ -3,8 +3,8 @@ package calsub
 import (
 	"time"
 
+	"github.com/breathbath/goalert/oncall"
 	"github.com/google/uuid"
-	"github.com/target/goalert/oncall"
 )
 
 type renderData struct {

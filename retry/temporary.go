@@ -6,8 +6,8 @@ import (
 	"net"
 	"strings"
 
+	"github.com/breathbath/goalert/util/sqlutil"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/util/sqlutil"
 )
 
 type clientErr interface {

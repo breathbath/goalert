@@ -6,15 +6,15 @@ import (
 	"errors"
 	"time"
 
+	"github.com/breathbath/goalert/expflag"
+	"github.com/breathbath/goalert/gadb"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util/log"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/google/uuid"
-	"github.com/target/goalert/expflag"
-	"github.com/target/goalert/gadb"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util/log"
 
-	"github.com/target/goalert/validation"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/validation"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 // Issuer is the JWT issuer for UIK API keys.

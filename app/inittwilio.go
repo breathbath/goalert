@@ -3,8 +3,8 @@ package app
 import (
 	"context"
 
-	"github.com/target/goalert/notification"
-	"github.com/target/goalert/notification/twilio"
+	"github.com/breathbath/goalert/notification"
+	"github.com/breathbath/goalert/notification/twilio"
 
 	"github.com/pkg/errors"
 )

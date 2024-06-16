@@ -3,7 +3,7 @@ package validate
 import (
 	"time"
 
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/validation"
 )
 
 // Duration will ensure a value is between min and max duration (inclusive).

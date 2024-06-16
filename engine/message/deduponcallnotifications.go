@@ -3,7 +3,7 @@ package message
 import (
 	"sort"
 
-	"github.com/target/goalert/notification"
+	"github.com/breathbath/goalert/notification"
 )
 
 // dedupOnCallNotifications will remove old on-call notifications if a newer one exists for the same schedule & destination.

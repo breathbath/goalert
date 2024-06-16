@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/target/goalert/devtools/pgdump-lite/pgd"
+	"github.com/breathbath/goalert/devtools/pgdump-lite/pgd"
 )
 
 type Schema struct {

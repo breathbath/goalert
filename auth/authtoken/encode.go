@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"encoding/binary"
 
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/validation"
 )
 
 // A SignFunc will return a signature for the given payload.

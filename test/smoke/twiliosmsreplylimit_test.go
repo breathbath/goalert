@@ -3,7 +3,7 @@ package smoke
 import (
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestTwilioSMSReplyLimit checks for a limit on passive replies (no action was taken due to error or already closed, etc).
@@ -58,7 +58,7 @@ func TestTwilioSMSReplyLimit(t *testing.T) {
 		ThenReply("1a").
 		ThenExpect("Acknowledged", "#1")
 
-		// should reset after ack
+	// should reset after ack
 	d1.SendSMS("nonsense")
 	d1.ExpectSMS("sorry")
 }

@@ -1,8 +1,8 @@
 package github
 
 import (
-	"github.com/target/goalert/auth/nonce"
-	"github.com/target/goalert/keyring"
+	"github.com/breathbath/goalert/auth/nonce"
+	"github.com/breathbath/goalert/keyring"
 )
 
 // Config is used to configure the GitHub OAuth2 provider. If none of Organization, Teams, or Users are

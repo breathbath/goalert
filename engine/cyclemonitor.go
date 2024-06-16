@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
+	"github.com/breathbath/goalert/validation"
 	"github.com/google/uuid"
-	"github.com/target/goalert/validation"
 )
 
 const cycleHist = 10

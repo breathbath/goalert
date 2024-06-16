@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/target/goalert/alert/alertlog"
-	"github.com/target/goalert/engine/processinglock"
-	"github.com/target/goalert/util"
+	"github.com/breathbath/goalert/alert/alertlog"
+	"github.com/breathbath/goalert/engine/processinglock"
+	"github.com/breathbath/goalert/util"
 )
 
 // DB manages user notification cycles in Postgres.

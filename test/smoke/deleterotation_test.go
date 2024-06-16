@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestDeleteRotation tests that it is possible to delete a rotation with participants

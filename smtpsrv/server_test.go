@@ -6,11 +6,11 @@ import (
 	"net/smtp"
 	"testing"
 
+	"github.com/breathbath/goalert/alert"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/smtpsrv"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/alert"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/smtpsrv"
 )
 
 func TestServer(t *testing.T) {

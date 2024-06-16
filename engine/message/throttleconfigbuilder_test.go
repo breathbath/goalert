@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/engine/message"
+	"github.com/breathbath/goalert/notification"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/engine/message"
-	"github.com/target/goalert/notification"
 )
 
 func TestThrottleConfigBuilder(t *testing.T) {

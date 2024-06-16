@@ -1,7 +1,7 @@
 package harness
 
 import (
-	"github.com/target/goalert/devtools/mocktwilio"
+	"github.com/breathbath/goalert/devtools/mocktwilio"
 )
 
 type twilioAssertionDevice struct {

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestManyAlerts ensures repeated alert -> msg -> close sequences work properly as long as the delay between

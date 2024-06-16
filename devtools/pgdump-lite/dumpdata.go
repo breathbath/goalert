@@ -7,9 +7,9 @@ import (
 	"io"
 	"slices"
 
+	"github.com/breathbath/goalert/devtools/pgdump-lite/pgd"
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/target/goalert/devtools/pgdump-lite/pgd"
 )
 
 type TableData struct {

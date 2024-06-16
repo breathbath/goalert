@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/target/goalert/expflag"
+	"github.com/breathbath/goalert/expflag"
 )
 
 func main() {

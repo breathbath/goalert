@@ -5,11 +5,11 @@ import (
 	"database/sql"
 	"sync"
 
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util"
-	"github.com/target/goalert/validation"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util"
+	"github.com/breathbath/goalert/validation"
+	"github.com/breathbath/goalert/validation/validate"
 
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/bcrypt"

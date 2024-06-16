@@ -8,8 +8,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/breathbath/goalert/util"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/util"
 )
 
 // An Instance represents a running remote GoAlert instance to monitor.

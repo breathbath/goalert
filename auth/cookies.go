@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/target/goalert/config"
+	"github.com/breathbath/goalert/config"
 )
 
 // SetCookie will set a cookie value for all API prefixes, respecting the current config parameters.

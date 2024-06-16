@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestDeleteEscalationPolicy tests that it is possible to delete an escalation policy

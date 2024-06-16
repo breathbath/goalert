@@ -1,7 +1,7 @@
 package user
 
 import (
-	"github.com/target/goalert/permission"
+	"github.com/breathbath/goalert/permission"
 	"testing"
 )
 

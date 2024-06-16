@@ -6,11 +6,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/target/goalert/alert"
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/migrate"
-	"github.com/target/goalert/util/sqlutil"
-	"github.com/target/goalert/util/timeutil"
+	"github.com/breathbath/goalert/alert"
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/migrate"
+	"github.com/breathbath/goalert/util/sqlutil"
+	"github.com/breathbath/goalert/util/timeutil"
 
 	"github.com/google/uuid"
 	"github.com/jackc/pgtype"

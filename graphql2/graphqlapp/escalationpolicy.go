@@ -6,15 +6,15 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/escalation"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/notice"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/search"
-	"github.com/target/goalert/validation"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/escalation"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/notice"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/search"
+	"github.com/breathbath/goalert/validation"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 type EscalationPolicy App

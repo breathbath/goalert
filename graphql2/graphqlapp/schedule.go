@@ -11,17 +11,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/notificationchannel"
-	"github.com/target/goalert/oncall"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/schedule"
-	"github.com/target/goalert/schedule/rule"
-	"github.com/target/goalert/search"
-	"github.com/target/goalert/util"
-	"github.com/target/goalert/validation"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/notificationchannel"
+	"github.com/breathbath/goalert/oncall"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/schedule"
+	"github.com/breathbath/goalert/schedule/rule"
+	"github.com/breathbath/goalert/search"
+	"github.com/breathbath/goalert/util"
+	"github.com/breathbath/goalert/validation"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 type (

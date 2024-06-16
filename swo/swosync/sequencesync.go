@@ -3,8 +3,8 @@ package swosync
 import (
 	"fmt"
 
+	"github.com/breathbath/goalert/util/sqlutil"
 	"github.com/jackc/pgx/v5"
-	"github.com/target/goalert/util/sqlutil"
 )
 
 // SequenceSync is a helper for synchronizing sequences.

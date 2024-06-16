@@ -3,7 +3,7 @@ package message
 import (
 	"sort"
 
-	"github.com/target/goalert/notification"
+	"github.com/breathbath/goalert/notification"
 )
 
 // dedupAlerts will "bundle" identical alert notifications and point them at the oldest pending notification.

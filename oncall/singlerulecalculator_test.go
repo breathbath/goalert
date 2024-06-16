@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/oncall"
+	"github.com/breathbath/goalert/schedule/rule"
+	"github.com/breathbath/goalert/util/timeutil"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/oncall"
-	"github.com/target/goalert/schedule/rule"
-	"github.com/target/goalert/util/timeutil"
 )
 
 func TestSingleRuleCalculator(t *testing.T) {

@@ -8,15 +8,15 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/breathbath/goalert/alert"
+	"github.com/breathbath/goalert/alert/alertlog"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/schedule"
+	"github.com/breathbath/goalert/util/jsonutil"
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/util/sqlutil"
 	"github.com/jackc/pgtype"
-	"github.com/target/goalert/alert"
-	"github.com/target/goalert/alert/alertlog"
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/schedule"
-	"github.com/target/goalert/util/jsonutil"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/util/sqlutil"
 )
 
 // UpdateAll will update the state of all active escalation policies.

@@ -3,7 +3,7 @@ package message
 import (
 	"time"
 
-	"github.com/target/goalert/notification"
+	"github.com/breathbath/goalert/notification"
 )
 
 // GlobalCMThrottle represents the rate limits for each notification type.

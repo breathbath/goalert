@@ -9,13 +9,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/breathbath/goalert/alert"
+	"github.com/breathbath/goalert/auth"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/retry"
+	"github.com/breathbath/goalert/util/errutil"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/alert"
-	"github.com/target/goalert/auth"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/retry"
-	"github.com/target/goalert/util/errutil"
-	"github.com/target/goalert/validation/validate"
 )
 
 // Handler responds to generic API requests

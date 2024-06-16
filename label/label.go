@@ -1,8 +1,8 @@
 package label
 
 import (
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 // A Label is a key-value pair assigned to a target.

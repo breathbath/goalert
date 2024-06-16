@@ -7,7 +7,7 @@ import (
 	"io"
 
 	"github.com/99designs/gqlgen/graphql"
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/validation"
 )
 
 // TargetType represents the destination type of an assignment

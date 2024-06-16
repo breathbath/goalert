@@ -5,8 +5,8 @@ import (
 	"net"
 	"sync"
 
+	"github.com/breathbath/goalert/util/log"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/util/log"
 )
 
 type multiListener struct {

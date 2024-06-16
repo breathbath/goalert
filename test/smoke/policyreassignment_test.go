@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 // TestPolicyReassignment tests that only the active escalation policy is used for alerts.

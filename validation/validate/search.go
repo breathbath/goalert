@@ -3,7 +3,7 @@ package validate
 import (
 	"unicode"
 
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/validation"
 )
 
 // Search will validate a search body. It ensures that the field

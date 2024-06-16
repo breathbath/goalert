@@ -3,10 +3,10 @@ package graphqlapp
 import (
 	"context"
 
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/expflag"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/permission"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/expflag"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/permission"
 )
 
 func (a *Query) IntegrationKeyTypes(ctx context.Context) ([]graphql2.IntegrationKeyTypeInfo, error) {

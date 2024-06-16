@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/breathbath/goalert/permission"
 	"github.com/golang/groupcache"
 	"github.com/google/uuid"
-	"github.com/target/goalert/permission"
 )
 
 func timeKey(key string, dur time.Duration) string {

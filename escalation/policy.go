@@ -1,7 +1,7 @@
 package escalation
 
 import (
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 type Policy struct {

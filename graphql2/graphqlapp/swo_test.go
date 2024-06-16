@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/swo"
+	"github.com/breathbath/goalert/swo/swogrp"
+	"github.com/breathbath/goalert/swo/swoinfo"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/swo"
-	"github.com/target/goalert/swo/swogrp"
-	"github.com/target/goalert/swo/swoinfo"
 )
 
 func Test_validateSWOGrpNode(t *testing.T) {

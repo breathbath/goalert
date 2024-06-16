@@ -3,9 +3,9 @@ package swogrp
 import (
 	"context"
 
+	"github.com/breathbath/goalert/swo/swomsg"
+	"github.com/breathbath/goalert/util/log"
 	"github.com/google/uuid"
-	"github.com/target/goalert/swo/swomsg"
-	"github.com/target/goalert/util/log"
 )
 
 type TaskFn func(context.Context) error

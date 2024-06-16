@@ -3,7 +3,7 @@ package message
 import (
 	"sort"
 
-	"github.com/target/goalert/notification"
+	"github.com/breathbath/goalert/notification"
 )
 
 // dedupStatusMessages will remove old status updates if a newer one exists for the same alert/destination.

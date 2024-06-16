@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/target/goalert/timezone"
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/timezone"
+	"github.com/breathbath/goalert/validation"
 )
 
 var tzCache = make(map[string]*time.Location, 100)

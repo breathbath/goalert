@@ -3,7 +3,7 @@ package notification
 import (
 	"context"
 
-	"github.com/target/goalert/auth/authlink"
+	"github.com/breathbath/goalert/auth/authlink"
 )
 
 // A Receiver processes incoming messages and responses.

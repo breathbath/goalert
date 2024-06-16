@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/target/goalert/util"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/util"
+	"github.com/breathbath/goalert/validation/validate"
 
 	"github.com/google/uuid"
 )

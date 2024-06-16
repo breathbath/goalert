@@ -5,11 +5,11 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util"
-	"github.com/target/goalert/util/sqlutil"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util"
+	"github.com/breathbath/goalert/util/sqlutil"
+	"github.com/breathbath/goalert/validation/validate"
 
 	"github.com/google/uuid"
 )

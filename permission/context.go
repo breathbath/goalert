@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync/atomic"
 
+	"github.com/breathbath/goalert/util/log"
 	"github.com/google/uuid"
-	"github.com/target/goalert/util/log"
 )
 
 // SourceContext will return a context with the provided SourceInfo.

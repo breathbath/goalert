@@ -3,10 +3,10 @@ package graphqlapp
 import (
 	"testing"
 
+	"github.com/breathbath/goalert/graphql2"
 	"github.com/expr-lang/expr/ast"
 	"github.com/expr-lang/expr/parser"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/graphql2"
 )
 
 func TestExprToCondition(t *testing.T) {

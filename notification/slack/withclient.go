@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/util"
 	"github.com/pkg/errors"
 	"github.com/slack-go/slack"
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/util"
 )
 
 func waitContext(ctx context.Context, delay time.Duration) error {

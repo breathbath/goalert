@@ -5,7 +5,7 @@ import (
 	"database/sql/driver"
 	"time"
 
-	"github.com/target/goalert/retry"
+	"github.com/breathbath/goalert/retry"
 )
 
 type retryConnector struct {

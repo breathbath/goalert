@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/target/goalert/notification"
+	"github.com/breathbath/goalert/notification"
 )
 
 var typePriority = map[notification.MessageType]int{

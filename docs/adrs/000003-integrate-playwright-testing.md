@@ -53,6 +53,6 @@ Chosen option: "Migrate to Playwright", because it offers better integration wit
 
 ## Links
 
-- [Relevant Issue](https://github.com/target/goalert/issues/2589)
-- [Migration Commit](https://github.com/target/goalert/pull/2608)
+- [Relevant Issue](https://github.com/breathbath/goalert/issues/2589)
+- [Migration Commit](https://github.com/breathbath/goalert/pull/2608)
 - [Playwright Documentation](https://playwright.dev/)

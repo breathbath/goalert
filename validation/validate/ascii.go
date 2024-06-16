@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"unicode"
 
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/validation"
 )
 
 // ASCII will validate that the passed value is an ASCII string within the given length values.

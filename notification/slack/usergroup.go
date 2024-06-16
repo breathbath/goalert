@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/validation"
 	"github.com/slack-go/slack"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/validation"
 )
 
 type UserGroup struct {

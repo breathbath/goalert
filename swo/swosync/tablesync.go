@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/breathbath/goalert/swo/swoinfo"
+	"github.com/breathbath/goalert/util/sqlutil"
 	"github.com/jackc/pgx/v5"
-	"github.com/target/goalert/swo/swoinfo"
-	"github.com/target/goalert/util/sqlutil"
 )
 
 // TableSync is a helper for syncing tables from the source database to the target database.

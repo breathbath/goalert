@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/notification"
+	"github.com/breathbath/goalert/notificationchannel"
+	"github.com/breathbath/goalert/search"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/google/uuid"
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/notification"
-	"github.com/target/goalert/notificationchannel"
-	"github.com/target/goalert/search"
-	"github.com/target/goalert/validation/validate"
 )
 
 type MessageLog App

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/target/goalert/test/smoke/harness"
+	"github.com/breathbath/goalert/test/smoke/harness"
 )
 
 func TestSite24x7(t *testing.T) {

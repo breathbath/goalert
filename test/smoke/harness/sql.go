@@ -6,8 +6,8 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/breathbath/goalert/util/sqlutil"
 	"github.com/jackc/pgx/v5"
-	"github.com/target/goalert/util/sqlutil"
 )
 
 // ExecSQL will execute all queries one-by-one.

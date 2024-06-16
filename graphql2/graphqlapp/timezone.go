@@ -3,9 +3,9 @@ package graphqlapp
 import (
 	context "context"
 
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/search"
-	"github.com/target/goalert/timezone"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/search"
+	"github.com/breathbath/goalert/timezone"
 )
 
 func (q *Query) TimeZones(ctx context.Context, input *graphql2.TimeZoneSearchOptions) (conn *graphql2.TimeZoneConnection, err error) {

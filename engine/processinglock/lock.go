@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/target/goalert/lock"
-	"github.com/target/goalert/util"
-	"github.com/target/goalert/util/sqlutil"
+	"github.com/breathbath/goalert/lock"
+	"github.com/breathbath/goalert/util"
+	"github.com/breathbath/goalert/util/sqlutil"
 )
 
 // A Lock is used to start "locked" transactions.

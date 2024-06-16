@@ -12,7 +12,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/target/goalert/limit"
+	"github.com/breathbath/goalert/limit"
 )
 
 type SystemLimitInfo struct {
@@ -61,7 +61,7 @@ var tmpl = template.Must(
 
 package graphql2
 import (
-	"github.com/target/goalert/limit"
+	"github.com/breathbath/goalert/limit"
 )
 // MapLimitValues will map a Limit struct into a flat list of SystemLimit structs.
 func MapLimitValues(l limit.Limits) []SystemLimit {

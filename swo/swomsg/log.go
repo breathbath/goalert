@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/breathbath/goalert/swo/swodb"
+	"github.com/breathbath/goalert/util/log"
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/target/goalert/swo/swodb"
-	"github.com/target/goalert/util/log"
 )
 
 // pollInterval is how often the log will be polled for new events.

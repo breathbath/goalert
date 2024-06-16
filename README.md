@@ -6,7 +6,7 @@ GoAlert provides on-call scheduling, automated escalations and notifications (li
 
 ## Installation
 
-GoAlert is distributed as a single binary with release notes available from the [GitHub Releases](https://github.com/target/goalert/releases) page.
+GoAlert is distributed as a single binary with release notes available from the [GitHub Releases](https://github.com/breathbath/goalert/releases) page.
 Additionally, images are published on [Docker Hub](https://hub.docker.com/r/goalert/goalert) for each release. The `latest` tag is the most recent release, and `nightly` is the latest build from the `master` branch.
 
 See our [Getting Started Guide](./docs/getting-started.md) for running GoAlert in a production environment.
@@ -40,8 +40,8 @@ If you need help or have a question, the `#goalert` Slack channel is available o
 
 To access Gophers Slack and the `#goalert` channel, you will need an invitation. You request one through the automated process here: https://invite.slack.golangbridge.org/
 
-- Vote on existing [Feature Requests](https://github.com/target/goalert/issues?q=is%3Aopen+label%3Aenhancement+sort%3Areactions-%2B1-desc) or submit [a new one](https://github.com/target/goalert/issues/new)
-- File a [bug report](https://github.com/target/goalert/issues)
+- Vote on existing [Feature Requests](https://github.com/breathbath/goalert/issues?q=is%3Aopen+label%3Aenhancement+sort%3Areactions-%2B1-desc) or submit [a new one](https://github.com/breathbath/goalert/issues/new)
+- File a [bug report](https://github.com/breathbath/goalert/issues)
 - Report security issues to security@goalert.me
 
 ## License

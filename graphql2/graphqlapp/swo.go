@@ -6,12 +6,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/target/goalert/graphql2"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/swo"
-	"github.com/target/goalert/swo/swogrp"
-	"github.com/target/goalert/swo/swoinfo"
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/graphql2"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/swo"
+	"github.com/breathbath/goalert/swo/swogrp"
+	"github.com/breathbath/goalert/swo/swoinfo"
+	"github.com/breathbath/goalert/validation"
 )
 
 func (m *Mutation) SwoAction(ctx context.Context, action graphql2.SWOAction) (bool, error) {

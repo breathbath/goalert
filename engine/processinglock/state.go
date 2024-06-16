@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"encoding/json"
 
-	"github.com/target/goalert/util/jsonutil"
+	"github.com/breathbath/goalert/util/jsonutil"
 )
 
 // State manages the state value for a processing lock.

@@ -3,7 +3,7 @@ package app
 import (
 	"context"
 
-	"github.com/target/goalert/graphql2/graphqlapp"
+	"github.com/breathbath/goalert/graphql2/graphqlapp"
 )
 
 func (app *App) initGraphQL(ctx context.Context) error {

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/target/goalert/swo/swodb"
-	"github.com/target/goalert/swo/swoinfo"
-	"github.com/target/goalert/util/sqlutil"
+	"github.com/breathbath/goalert/swo/swodb"
+	"github.com/breathbath/goalert/swo/swoinfo"
+	"github.com/breathbath/goalert/util/sqlutil"
 )
 
 //go:embed changelog.sql

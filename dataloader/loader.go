@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/target/goalert/gadb"
+	"github.com/breathbath/goalert/gadb"
 )
 
 func NewStoreLoaderInt[V any](ctx context.Context, fetchMany func(context.Context, []int) ([]V, error)) *Loader[int, V] {

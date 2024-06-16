@@ -3,8 +3,8 @@ package smoke
 import (
 	"testing"
 
+	"github.com/breathbath/goalert/test/smoke/harness"
 	"github.com/stretchr/testify/assert"
-	"github.com/target/goalert/test/smoke/harness"
 )
 
 // TestTwilioSMSRestrictions checks for restrictions like 1-way and disabling of URLs in messages to certain country codes.

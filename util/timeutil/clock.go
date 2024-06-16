@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/99designs/gqlgen/graphql"
+	"github.com/breathbath/goalert/validation"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/validation"
 )
 
 // Clock represents wall-clock time. It is a duration since midnight.

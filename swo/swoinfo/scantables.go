@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"sort"
 
+	"github.com/breathbath/goalert/swo/swodb"
 	"github.com/jackc/pgx/v5"
-	"github.com/target/goalert/swo/swodb"
 )
 
 // ScanTables scans the database for tables returning them in insert-safe-order,

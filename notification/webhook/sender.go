@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/notification"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/notification"
 )
 
 type Sender struct{}

@@ -363,7 +363,7 @@ test/coverage/total.out: test/coverage/integration/*/* test/coverage/*/* Makefil
 	go tool covdata merge -i test/coverage/integration/cypress-wide,test/coverage/integration/cypress-mobile,test/coverage/integration/playwright,test/coverage/integration/reset,test/coverage/smoke,test/coverage/unit -pcombine -o test/coverage/total
 
 	go tool covdata textfmt -i test/coverage/total -o test/coverage/total.out.tmp
-	cat test/coverage/total.out.tmp | grep -v ^github.com/target/goalert/graphql2/generated.go | grep -v ^github.com/target/goalert/graphql2/mapconfig.go | grep -v ^github.com/target/goalert/graphql2/maplimit.go | grep -v ^github.com/target/goalert/pkg/sysapi/sysapi_grpc.pb.go | grep -v ^github.com/target/goalert/pkg/sysapi/sysapi.pb.go | grep -v ^github.com/target/goalert/graphql2/models_gen.go | grep -v ^github.com/target/goalert/gadb | grep -v ^github.com/target/goalert/swo/swodb | grep -v ^github.com/target/goalert/devtools >test/coverage/total.out
+	cat test/coverage/total.out.tmp | grep -v ^github.com/breathbath/goalert/graphql2/generated.go | grep -v ^github.com/breathbath/goalert/graphql2/mapconfig.go | grep -v ^github.com/breathbath/goalert/graphql2/maplimit.go | grep -v ^github.com/breathbath/goalert/pkg/sysapi/sysapi_grpc.pb.go | grep -v ^github.com/breathbath/goalert/pkg/sysapi/sysapi.pb.go | grep -v ^github.com/breathbath/goalert/graphql2/models_gen.go | grep -v ^github.com/breathbath/goalert/gadb | grep -v ^github.com/breathbath/goalert/swo/swodb | grep -v ^github.com/breathbath/goalert/devtools >test/coverage/total.out
 
 test/coverage/report.txt: test/coverage/total.out
 	go tool cover -func=test/coverage/total.out | tee test/coverage/report.txt

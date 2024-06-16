@@ -3,7 +3,7 @@ package validate
 import (
 	"strings"
 
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/validation"
 )
 
 // TwlioFromValue will validate a from value as either a phone number, or messaging service SID starting with 'MG'.

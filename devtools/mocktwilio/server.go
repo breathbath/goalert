@@ -12,9 +12,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/breathbath/goalert/notification/twilio"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/notification/twilio"
-	"github.com/target/goalert/validation/validate"
 )
 
 // Config is used to configure the mock server.

@@ -3,7 +3,7 @@ package validate
 import (
 	"strconv"
 
-	"github.com/target/goalert/validation"
+	"github.com/breathbath/goalert/validation"
 )
 
 // Len will ensure a slice has at least min and at most max items.

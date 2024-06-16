@@ -8,9 +8,9 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/target/goalert/config"
-	"github.com/target/goalert/notification"
-	"github.com/target/goalert/util"
+	"github.com/breathbath/goalert/config"
+	"github.com/breathbath/goalert/notification"
+	"github.com/breathbath/goalert/util"
 )
 
 // 160 GSM characters (140 bytes) is the max for a single segment message.

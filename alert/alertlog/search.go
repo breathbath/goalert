@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"text/template"
 
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/search"
-	"github.com/target/goalert/util/sqlutil"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/search"
+	"github.com/breathbath/goalert/util/sqlutil"
+	"github.com/breathbath/goalert/validation/validate"
 
 	"github.com/pkg/errors"
 )

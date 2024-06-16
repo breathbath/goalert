@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util"
+	"github.com/breathbath/goalert/util/sqlutil"
 	"github.com/jackc/pgtype"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util"
-	"github.com/target/goalert/util/sqlutil"
 )
 
 type Store struct {

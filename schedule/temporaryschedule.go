@@ -4,8 +4,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/target/goalert/user"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/user"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 // TemporarySchedule represents a timespan containing static pre-defined shifts of on-call users.

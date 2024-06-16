@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/breathbath/goalert/util/timeutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/target/goalert/util/timeutil"
 )
 
 func TestParseISORInterval(t *testing.T) {

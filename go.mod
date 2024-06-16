@@ -1,4 +1,4 @@
-module github.com/target/goalert
+module github.com/breathbath/goalert
 
 go 1.22
 

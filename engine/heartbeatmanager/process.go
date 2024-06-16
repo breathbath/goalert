@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/breathbath/goalert/alert"
+	"github.com/breathbath/goalert/permission"
+	"github.com/breathbath/goalert/util/log"
+	"github.com/breathbath/goalert/util/sqlutil"
+	"github.com/breathbath/goalert/validation/validate"
 	"github.com/pkg/errors"
-	"github.com/target/goalert/alert"
-	"github.com/target/goalert/permission"
-	"github.com/target/goalert/util/log"
-	"github.com/target/goalert/util/sqlutil"
-	"github.com/target/goalert/validation/validate"
 )
 
 // UpdateAll will process all heartbeats opening and closing alerts as needed.

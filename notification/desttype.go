@@ -3,8 +3,8 @@ package notification
 import (
 	"fmt"
 
-	"github.com/target/goalert/notificationchannel"
-	"github.com/target/goalert/user/contactmethod"
+	"github.com/breathbath/goalert/notificationchannel"
+	"github.com/breathbath/goalert/user/contactmethod"
 )
 
 //go:generate go run golang.org/x/tools/cmd/stringer -type DestType

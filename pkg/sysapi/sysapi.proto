@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/target/goalert/pkg/sysapi";
+option go_package = "github.com/breathbath/goalert/pkg/sysapi";
 
 package goalert.v1;
 

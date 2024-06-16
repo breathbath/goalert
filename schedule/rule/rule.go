@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/target/goalert/assignment"
-	"github.com/target/goalert/util/timeutil"
-	"github.com/target/goalert/validation/validate"
+	"github.com/breathbath/goalert/assignment"
+	"github.com/breathbath/goalert/util/timeutil"
+	"github.com/breathbath/goalert/validation/validate"
 )
 
 type Rule struct {
