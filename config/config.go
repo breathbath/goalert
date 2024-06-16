@@ -102,6 +102,23 @@ type Config struct {
 		InteractiveMessages bool   `info:"Enable interactive messages (e.g. buttons)."`
 	}
 
+	//see https://docs.aws.amazon.com/pinpoint/latest/apireference_smsvoicev2/API_SendTextMessage.html#API_SendTextMessage_RequestSyntax
+	PinPoint struct {
+		Enable                       bool              `public:"true" info:"Enables sending and processing of SMS messages through the AWS Pinpoint notification provider."`
+		ConfigurationSetName         string            `public:"true" info:"The name of the configuration set to use. This can be either the ConfigurationSetName or ConfigurationSetArn."`
+		Context                      map[string]string `public:"true" info:"You can specify custom data in this field. If you do, that data is logged to the event destination."`
+		DestinationCountryParameters map[string]string `public:"true" info:"This field is used for any country-specific registration requirements. Currently, this setting is only used when you send messages to recipients in India using a sender ID. For more information see [Special requirements for sending SMS messages to recipients in India]. [Special requirements for sending SMS messages to recipients in India]: https://docs.aws.amazon.com/pinpoint/latest/userguide/channels-sms-senderid-india.html see https://docs.aws.amazon.com/pinpoint/latest/apireference_smsvoicev2/API_SendTextMessage.html#API_SendTextMessage_RequestSyntax"`
+		Keyword                      string            `public:"true" info:"Keyword When you register a short code in the US, you must specify a program name. If you don’t have a US short code, omit this attribute."`
+		MaxPrice                     string            `public:"true" info:"The maximum amount that you want to spend, in US dollars, per each text message part. A text message can contain multiple parts."`
+		OriginationIdentity          string            `public:"true" info:"The origination identity of the message. This can be either the PhoneNumber, PhoneNumberId, PhoneNumberArn, SenderId, SenderIdArn, PoolId, or PoolArn."`
+		ProtectConfigurationId       string            `public:"true" info:"ProtectConfigurationId The unique identifier for the protect configuration."`
+		TimeToLive                   int32             `public:"true" info:"How long the text message is valid for. By default this is 72 hours."`
+
+		AwsAccessKeyId     string `password:"true" info:"AWS Credentials see https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/configuring-sdk.html"`
+		AwsSecretAccessKey string `password:"true" info:"AWS Credentials see https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/configuring-sdk.html"`
+		AwsSessionToken    string `password:"true" info:"AWS Credentials see https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/configuring-sdk.html"`
+	}
+
 	Twilio struct {
 		Enable bool `public:"true" info:"Enables sending and processing of Voice and SMS messages through the Twilio notification provider."`
 

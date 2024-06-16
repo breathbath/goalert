@@ -68,6 +68,10 @@ func (app *App) startup(ctx context.Context) error {
 	app.initStartup(
 		ctx, "Startup.Twilio", app.initTwilio)
 
+	// init pinpoint before engine
+	app.initStartup(
+		ctx, "Startup.Pinpoint", app.initPinpoint)
+
 	app.initStartup(ctx, "Startup.Slack", app.initSlack)
 	app.notificationManager.RegisterSender(notification.DestTypeUserEmail, "smtp", email.NewSender(ctx))
 	app.notificationManager.RegisterSender(notification.DestTypeUserWebhook, "webhook-user", webhook.NewSender(ctx))

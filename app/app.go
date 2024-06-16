@@ -5,6 +5,7 @@ import (
 	"crypto/tls"
 	"database/sql"
 	"fmt"
+	"github.com/breathbath/goalert/notification/pinpoint"
 	"net"
 	"net/http"
 
@@ -82,6 +83,9 @@ type App struct {
 	twilioSMS    *twilio.SMS
 	twilioVoice  *twilio.Voice
 	twilioConfig *twilio.Config
+
+	pinpointSMS    *pinpoint.SMS
+	pinpointConfig *pinpoint.Config
 
 	slackChan *slack.ChannelSender
 
