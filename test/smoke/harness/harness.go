@@ -292,6 +292,7 @@ func (h *Harness) Start() {
 	appCfg.JSON = true
 	appCfg.DBURL = h.dbURL
 	appCfg.TwilioBaseURL = h.twS.URL
+	appCfg.PinpointBaseURL = h.twS.URL
 	appCfg.DBMaxOpen = 5
 	appCfg.SlackBaseURL = h.slackS.URL
 	appCfg.SMTPListenAddr = "localhost:0"

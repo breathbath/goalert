@@ -100,7 +100,7 @@ func (s *SMS) Send(ctx context.Context, msg notification.Message) (*notification
 		return nil, errors.Wrap(err, "render message")
 	}
 
-	cl, err := NewClient(ctx, cfg, s.c.Region)
+	cl, err := NewClient(ctx, cfg, s.c)
 	if err != nil {
 		return nil, errors.Wrap(err, "wrong settings")
 	}

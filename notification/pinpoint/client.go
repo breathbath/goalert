@@ -8,7 +8,11 @@ import (
 	"os"
 )
 
-func NewClient(ctx context.Context, cfg config.Config, region string) (*pinpointsmsvoicev2.Client, error) {
+func NewClient(
+	ctx context.Context,
+	cfg config.Config,
+	opts *Config,
+) (*pinpointsmsvoicev2.Client, error) {
 	if cfg.PinPoint.AwsAccessKeyId != "" {
 		err := os.Setenv("AWS_ACCESS_KEY_ID", cfg.PinPoint.AwsAccessKeyId)
 		if err != nil {
@@ -30,9 +34,18 @@ func NewClient(ctx context.Context, cfg config.Config, region string) (*pinpoint
 		}
 	}
 
-	awsCfg, err := awsConfig.LoadDefaultConfig(ctx, awsConfig.WithRegion(region))
+	optFns := make([]func(options *awsConfig.LoadOptions) error, 0)
+	if opts.Client != nil {
+		optFns = append(optFns, awsConfig.WithHTTPClient(opts.Client))
+	}
+
+	awsCfg, err := awsConfig.LoadDefaultConfig(ctx, optFns...)
 	if err != nil {
 		return nil, err
+	}
+
+	if opts.BaseURL != "" {
+		awsCfg.BaseEndpoint = &opts.BaseURL
 	}
 
 	return pinpointsmsvoicev2.NewFromConfig(awsCfg), nil

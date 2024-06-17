@@ -51,9 +51,9 @@ type Config struct {
 
 	DisableHTTPSRedirect bool
 
-	TwilioBaseURL     string
-	SlackBaseURL      string
-	PinpointAWSRegion string
+	TwilioBaseURL   string
+	SlackBaseURL    string
+	PinpointBaseURL string
 
 	DBURL     string
 	DBURLNext string

@@ -10,7 +10,7 @@ import (
 
 func (app *App) initPinpoint(ctx context.Context) error {
 	app.pinpointConfig = &pinpoint.Config{
-		Region:  app.cfg.PinpointAWSRegion,
+		BaseURL: app.cfg.PinpointBaseURL,
 		CMStore: app.ContactMethodStore,
 		DB:      app.db,
 	}
