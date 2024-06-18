@@ -1146,6 +1146,7 @@ type ConfigType string
 const (
 	ConfigTypeString     ConfigType = "string"
 	ConfigTypeStringList ConfigType = "stringList"
+	ConfigTypeKeyValue ConfigType = "keyValue"
 	ConfigTypeInteger    ConfigType = "integer"
 	ConfigTypeBoolean    ConfigType = "boolean"
 )
@@ -1155,11 +1156,12 @@ var AllConfigType = []ConfigType{
 	ConfigTypeStringList,
 	ConfigTypeInteger,
 	ConfigTypeBoolean,
+	ConfigTypeKeyValue,
 }
 
 func (e ConfigType) IsValid() bool {
 	switch e {
-	case ConfigTypeString, ConfigTypeStringList, ConfigTypeInteger, ConfigTypeBoolean:
+	case ConfigTypeString, ConfigTypeStringList, ConfigTypeInteger, ConfigTypeBoolean, ConfigTypeKeyValue:
 		return true
 	}
 	return false

@@ -109,6 +109,7 @@ function testAdmin(): void {
         'Twilio.FromNumber': '',
         'Mailgun.APIKey': newAPIKey,
         'Twilio.Enable': false,
+        'PinPoint.Enable': false,
       })
       cy.get('button[data-cy=save]').click()
 

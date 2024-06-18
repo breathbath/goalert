@@ -500,6 +500,8 @@ func (cfg Config) Validate() error {
 		validatePath("OIDC.UserInfoEmailVerifiedPath", cfg.OIDC.UserInfoEmailVerifiedPath),
 		validatePath("OIDC.UserInfoNamePath", cfg.OIDC.UserInfoNamePath),
 		validateKey("Slack.SigningSecret", cfg.Slack.SigningSecret),
+		validateKey("PinPoint.AwsAccessKeyId", cfg.PinPoint.AwsAccessKeyId),
+		validateKey("PinPoint.AwsSecretAccessKey", cfg.PinPoint.AwsSecretAccessKey),
 	)
 
 	if cfg.General.GoogleAnalyticsID != "" {
@@ -552,6 +554,13 @@ func (cfg Config) Validate() error {
 			"AccountSID", cfg.Twilio.AccountSID,
 			"AuthToken", cfg.Twilio.AuthToken,
 			"FromNumber", cfg.Twilio.FromNumber,
+		),
+
+		validateEnable("PinPoint", cfg.PinPoint.Enable,
+			"OriginationIdentity", cfg.PinPoint.OriginationIdentity,
+			"AwsAccessKeyId", cfg.PinPoint.AwsAccessKeyId,
+			"AwsAccessKeyId", cfg.PinPoint.AwsSecretAccessKey,
+			"ConfigurationSetName", cfg.PinPoint.ConfigurationSetName,
 		),
 
 		validateEnable("GitHub", cfg.GitHub.Enable,

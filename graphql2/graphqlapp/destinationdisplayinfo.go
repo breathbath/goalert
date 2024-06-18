@@ -66,6 +66,17 @@ func (a *Query) _DestinationDisplayInfo(ctx context.Context, dest graphql2.Desti
 			IconAltText: "Text Message",
 			Text:        phonenumbers.Format(n, phonenumbers.INTERNATIONAL),
 		}, nil
+	case destPinpointSMS:
+		n, err := phonenumbers.Parse(dest.FieldValue(fieldPhoneNumber), "")
+		if err != nil {
+			return nil, validation.WrapError(err)
+		}
+
+		return &graphql2.DestinationDisplayInfo{
+			IconURL:     "builtin://phone-text",
+			IconAltText: "Text Message",
+			Text:        phonenumbers.Format(n, phonenumbers.INTERNATIONAL),
+		}, nil
 	case destTwilioVoice:
 		n, err := phonenumbers.Parse(dest.FieldValue(fieldPhoneNumber), "")
 		if err != nil {

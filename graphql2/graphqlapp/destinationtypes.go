@@ -14,6 +14,7 @@ import (
 // builtin-types
 const (
 	destTwilioSMS   = "builtin-twilio-sms"
+	destPinpointSMS = "builtin-pinpoint-sms"
 	destTwilioVoice = "builtin-twilio-voice"
 	destSMTP        = "builtin-smtp-email"
 	destWebhook     = "builtin-webhook"
@@ -219,7 +220,7 @@ func (q *Query) DestinationFieldSearch(ctx context.Context, input graphql2.Desti
 
 func (q *Query) DestinationFieldValidate(ctx context.Context, input graphql2.DestinationFieldValidateInput) (bool, error) {
 	switch input.DestType {
-	case destTwilioSMS, destTwilioVoice:
+	case destTwilioSMS, destTwilioVoice, destPinpointSMS:
 		if input.FieldID != fieldPhoneNumber {
 			return false, validation.NewGenericError("unsupported field")
 		}
@@ -279,6 +280,40 @@ func (q *Query) DestinationTypes(ctx context.Context, isDynamicAction *bool) ([]
 			UserDisclaimer:        cfg.General.NotificationDisclaimer,
 			SupportsStatusUpdates: true,
 			IsContactMethod:       true,
+			RequiredFields: []graphql2.DestinationFieldConfig{{
+				FieldID:            fieldPhoneNumber,
+				Label:              "Phone Number",
+				Hint:               "Include country code e.g. +1 (USA), +91 (India), +44 (UK)",
+				PlaceholderText:    "11235550123",
+				Prefix:             "+",
+				InputType:          "tel",
+				SupportsValidation: true,
+			}},
+		},
+		{
+			Type:                  destPinpointSMS,
+			Name:                  "Text Message (SMS)",
+			Enabled:               cfg.PinPoint.Enable,
+			UserDisclaimer:        cfg.General.NotificationDisclaimer,
+			SupportsStatusUpdates: true,
+			IsContactMethod:       true,
+			RequiredFields: []graphql2.DestinationFieldConfig{{
+				FieldID:            fieldPhoneNumber,
+				Label:              "Phone Number",
+				Hint:               "Include country code e.g. +1 (USA), +91 (India), +44 (UK)",
+				PlaceholderText:    "11235550123",
+				Prefix:             "+",
+				InputType:          "tel",
+				SupportsValidation: true,
+			}},
+		},
+		{
+			Type:                  destTwilioVoice,
+			Name:                  "Voice Call",
+			Enabled:               cfg.Twilio.Enable,
+			UserDisclaimer:        cfg.General.NotificationDisclaimer,
+			IsContactMethod:       true,
+			SupportsStatusUpdates: true,
 			RequiredFields: []graphql2.DestinationFieldConfig{{
 				FieldID:            fieldPhoneNumber,
 				Label:              "Phone Number",

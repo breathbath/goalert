@@ -113,6 +113,8 @@ func CompatDestToCMTypeVal(d graphql2.DestinationInput) (contactmethod.Type, str
 	switch d.Type {
 	case destTwilioSMS:
 		return contactmethod.TypeSMS, d.FieldValue(fieldPhoneNumber)
+	case destPinpointSMS:
+		return contactmethod.TypeSMS, d.FieldValue(fieldPhoneNumber)
 	case destTwilioVoice:
 		return contactmethod.TypeVoice, d.FieldValue(fieldPhoneNumber)
 	case destSMTP:

@@ -3,6 +3,7 @@
 package graphql2
 
 import (
+	"encoding/json"
 	"fmt"
 	"strconv"
 	"strings"
@@ -20,6 +21,15 @@ func MapConfigHints(cfg config.Hints) []ConfigHint {
 		{ID: "Twilio.VoiceWebhookURL", Value: cfg.Twilio.VoiceWebhookURL},
 		{ID: "Slack.InteractivityResponseURL", Value: cfg.Slack.InteractivityResponseURL},
 	}
+}
+
+func ConfigTypeKeyValueToString(v map[string]string) string {
+	vBytes, err := json.Marshal(v)
+	if err != nil {
+		return ""
+	}
+
+	return string(vBytes)
 }
 
 // MapConfigValues will map a Config struct into a flat list of ConfigValue structs.
@@ -79,6 +89,18 @@ func MapConfigValues(cfg config.Config) []ConfigValue {
 		{ID: "Twilio.DisableTwoWaySMS", Type: ConfigTypeBoolean, Description: "Disables SMS reply codes for alert messages.", Value: fmt.Sprintf("%t", cfg.Twilio.DisableTwoWaySMS)},
 		{ID: "Twilio.SMSCarrierLookup", Type: ConfigTypeBoolean, Description: "Perform carrier lookup of SMS contact methods (required for SMSFromNumberOverride). Extra charges may apply.", Value: fmt.Sprintf("%t", cfg.Twilio.SMSCarrierLookup)},
 		{ID: "Twilio.SMSFromNumberOverride", Type: ConfigTypeStringList, Description: "List of 'carrier=number' pairs, SMS messages to numbers of the provided carrier string (exact match) will use the alternate From Number.", Value: strings.Join(cfg.Twilio.SMSFromNumberOverride, "\n")},
+		{ID: "PinPoint.Enable", Type: ConfigTypeBoolean, Description: "Enables sending and processing of SMS messages through the AWS Pinpoint notification provider.", Value: fmt.Sprintf("%t", cfg.PinPoint.Enable)},
+		{ID: "PinPoint.ConfigurationSetName", Type: ConfigTypeString, Description: "The name of the configuration set to use. This can be either the ConfigurationSetName or ConfigurationSetArn.", Value: cfg.PinPoint.ConfigurationSetName},
+		{ID: "PinPoint.Context", Type: ConfigTypeKeyValue, Description: "You can specify custom data in this field. If you do, that data is logged to the event destination.", Value: ConfigTypeKeyValueToString(cfg.PinPoint.Context)},
+		{ID: "PinPoint.DestinationCountryParameters", Type: ConfigTypeKeyValue, Description: "This field is used for any country-specific registration requirements. Currently, this setting is only used when you send messages to recipients in India using a sender ID. For more information see [Special requirements for sending SMS messages to recipients in India]. [Special requirements for sending SMS messages to recipients in India]: https://docs.aws.amazon.com/pinpoint/latest/userguide/channels-sms-senderid-india.html see https://docs.aws.amazon.com/pinpoint/latest/apireference_smsvoicev2/API_SendTextMessage.html#API_SendTextMessage_RequestSyntax", Value: ConfigTypeKeyValueToString(cfg.PinPoint.DestinationCountryParameters)},
+		{ID: "PinPoint.Keyword", Type: ConfigTypeString, Description: "Keyword When you register a short code in the US, you must specify a program name. If you don’t have a US short code, omit this attribute.", Value: cfg.PinPoint.Keyword},
+		{ID: "PinPoint.MaxPrice", Type: ConfigTypeString, Description: "The maximum amount that you want to spend, in US dollars, per each text message part. A text message can contain multiple parts.", Value: cfg.PinPoint.MaxPrice},
+		{ID: "PinPoint.OriginationIdentity", Type: ConfigTypeString, Description: "The origination identity of the message. This can be either the PhoneNumber, PhoneNumberId, PhoneNumberArn, SenderId, SenderIdArn, PoolId, or PoolArn.", Value: cfg.PinPoint.OriginationIdentity},
+		{ID: "PinPoint.ProtectConfigurationId", Type: ConfigTypeString, Description: "ProtectConfigurationId The unique identifier for the protect configuration.", Value: cfg.PinPoint.ProtectConfigurationId},
+		{ID: "PinPoint.TimeToLive", Type: ConfigTypeString, Description: "ProtectConfigurationId The unique identifier for the protect configuration.", Value: strconv.Itoa(int(cfg.PinPoint.TimeToLive))},
+		{ID: "PinPoint.AwsAccessKeyId", Type: ConfigTypeString, Description: "AWS Credentials see https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/configuring-sdk.html", Value: cfg.PinPoint.AwsAccessKeyId, Password: true},
+		{ID: "PinPoint.AwsSecretAccessKey", Type: ConfigTypeString, Description: "AWS Credentials see https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/configuring-sdk.html", Value: cfg.PinPoint.AwsSecretAccessKey, Password: true},
+		{ID: "PinPoint.AwsSessionToken", Type: ConfigTypeString, Description: "AWS Credentials see https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/configuring-sdk.html", Value: cfg.PinPoint.AwsSessionToken, Password: true},
 		{ID: "SMTP.Enable", Type: ConfigTypeBoolean, Description: "Enables email as a contact method.", Value: fmt.Sprintf("%t", cfg.SMTP.Enable)},
 		{ID: "SMTP.From", Type: ConfigTypeString, Description: "The email address messages should be sent from.", Value: cfg.SMTP.From},
 		{ID: "SMTP.Address", Type: ConfigTypeString, Description: "The server address to use for sending email. Port is optional and defaults to 465, or 25 if Disable TLS is set. Common ports are: 25 or 587 for STARTTLS (or unencrypted) and 465 for TLS.", Value: cfg.SMTP.Address},
@@ -119,6 +141,10 @@ func MapPublicConfigValues(cfg config.Config) []ConfigValue {
 		{ID: "Twilio.Enable", Type: ConfigTypeBoolean, Description: "Enables sending and processing of Voice and SMS messages through the Twilio notification provider.", Value: fmt.Sprintf("%t", cfg.Twilio.Enable)},
 		{ID: "Twilio.FromNumber", Type: ConfigTypeString, Description: "The Twilio number to use for outgoing notifications.", Value: cfg.Twilio.FromNumber},
 		{ID: "Twilio.MessagingServiceSID", Type: ConfigTypeString, Description: "If set, replaces the use of From Number for SMS notifications.", Value: cfg.Twilio.MessagingServiceSID},
+		{ID: "PinPoint.Enable", Type: ConfigTypeBoolean, Description: "Enables sending and processing of SMS messages through the AWS Pinpoint notification provider.", Value: fmt.Sprintf("%t", cfg.PinPoint.Enable)},
+		{ID: "PinPoint.ConfigurationSetName", Type: ConfigTypeString, Description: "The name of the configuration set to use. This can be either the ConfigurationSetName or ConfigurationSetArn.", Value: cfg.PinPoint.ConfigurationSetName},
+		{ID: "PinPoint.OriginationIdentity", Type: ConfigTypeString, Description: "The origination identity of the message. This can be either the PhoneNumber, PhoneNumberId, PhoneNumberArn, SenderId, SenderIdArn, PoolId, or PoolArn.", Value: cfg.PinPoint.OriginationIdentity},
+		{ID: "PinPoint.ProtectConfigurationId", Type: ConfigTypeString, Description: "ProtectConfigurationId The unique identifier for the protect configuration.", Value: cfg.PinPoint.ProtectConfigurationId},
 		{ID: "SMTP.Enable", Type: ConfigTypeBoolean, Description: "Enables email as a contact method.", Value: fmt.Sprintf("%t", cfg.SMTP.Enable)},
 		{ID: "SMTP.From", Type: ConfigTypeString, Description: "The email address messages should be sent from.", Value: cfg.SMTP.From},
 		{ID: "Webhook.Enable", Type: ConfigTypeBoolean, Description: "Enables webhook as a contact method.", Value: fmt.Sprintf("%t", cfg.Webhook.Enable)},
@@ -155,6 +181,15 @@ func ApplyConfigValues(cfg config.Config, vals []ConfigValueInput) (config.Confi
 		default:
 			return false, validation.NewFieldError("\""+id+"\".Value", "boolean value invalid: expected 'true' or 'false'")
 		}
+	}
+	parseKeyValue := func(id, v string) (map[string]string, error) {
+		targetValue := map[string]string{}
+		err := json.Unmarshal([]byte(v), &targetValue)
+		if err != nil {
+			reason :=  fmt.Sprintf("key value value %s invalid: %v expected a valid JSON string", v, err)
+			return nil, validation.NewFieldError("\""+id+"\".Value", reason)
+		}
+		return targetValue, nil
 	}
 	for _, v := range vals {
 		switch v.ID {
@@ -346,6 +381,46 @@ func ApplyConfigValues(cfg config.Config, vals []ConfigValueInput) (config.Confi
 			cfg.Twilio.SMSCarrierLookup = val
 		case "Twilio.SMSFromNumberOverride":
 			cfg.Twilio.SMSFromNumberOverride = parseStringList(v.Value)
+		case "PinPoint.Enable":
+			val, err := parseBool(v.ID, v.Value)
+			if err != nil {
+				return cfg, err
+			}
+			cfg.PinPoint.Enable = val
+		case "PinPoint.ConfigurationSetName":
+			cfg.PinPoint.ConfigurationSetName = v.Value
+		case "PinPoint.Context":
+			val, err := parseKeyValue(v.ID, v.Value)
+			if err != nil {
+				return cfg, err
+			}
+			cfg.PinPoint.Context = val
+		case "PinPoint.DestinationCountryParameters":
+			val, err := parseKeyValue(v.ID, v.Value)
+			if err != nil {
+				return cfg, err
+			}
+			cfg.PinPoint.DestinationCountryParameters = val
+		case "PinPoint.Keyword":
+			cfg.PinPoint.Keyword = v.Value
+		case "PinPoint.MaxPrice":
+			cfg.PinPoint.MaxPrice = v.Value
+		case "PinPoint.OriginationIdentity":
+			cfg.PinPoint.OriginationIdentity = v.Value
+		case "PinPoint.ProtectConfigurationId":
+			cfg.PinPoint.ProtectConfigurationId = v.Value
+		case "PinPoint.TimeToLive":
+			val, err := parseInt(v.ID, v.Value)
+			if err != nil {
+				return cfg, err
+			}
+			cfg.PinPoint.TimeToLive = int32(val)
+		case "PinPoint.AwsAccessKeyId":
+			cfg.PinPoint.AwsAccessKeyId = v.Value
+		case "PinPoint.AwsSecretAccessKey":
+			cfg.PinPoint.AwsSecretAccessKey = v.Value
+		case "PinPoint.AwsSessionToken":
+			cfg.PinPoint.AwsSessionToken = v.Value
 		case "SMTP.Enable":
 			val, err := parseBool(v.ID, v.Value)
 			if err != nil {
